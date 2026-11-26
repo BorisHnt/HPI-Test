@@ -25,3 +25,7 @@ Les scores indiquent une fréquence de sélection relative à l'exposition à ch
 L'historique (100 résultats max) et la progression sont enregistrés dans localStorage. Les réponses ne sont pas envoyées à un serveur. La fonctionnalité de partage native dépend du navigateur ; un téléchargement PNG ou une copie du lien est proposé en alternative.
 
 Les phrases humoristiques sont associées aux signes, et les descriptions de signe/ascendant sont distinctes. Les 380 combinaisons ne disposent pas encore chacune d'un texte original spécifique.
+
+## Répertoire des personnalités
+
+Après un premier test sauvegardé, le menu, l’accueil et la page de résultat donnent accès aux 20 pictogrammes actifs et à leurs descriptions de signe et d’ascendant, qualités et précautions. Le répertoire est masqué tant qu’aucun résultat n’est disponible localement, y compris après suppression de tous les résultats. Les six anciens pictogrammes restent consultables uniquement dans leurs résultats historiques.
