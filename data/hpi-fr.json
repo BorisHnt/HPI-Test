@@ -303,883 +303,884 @@
   "questions": [
     {
       "id": 1,
-      "prompt": "Une discussion de groupe commence à tourner au désaccord. Que fais-tu le plus spontanément ?",
+      "prompt": "Un débat s’échauffe. Tu fais quoi ?",
       "options": [
         {
           "profileId": 1,
-          "label": "Je réagis immédiatement, parfois trop vivement."
+          "label": "Je réponds au quart de tour."
         },
         {
           "profileId": 2,
-          "label": "Je me passionne pour mon argument et m'y investis à fond."
+          "label": "Je défends mon idée avec passion."
         },
         {
           "profileId": 3,
-          "label": "Je rajoute des exemples qui relancent le débat."
+          "label": "Je relance le débat avec un autre argument."
         },
         {
           "profileId": 4,
-          "label": "Je formule une remarque très directe, quitte à piquer."
+          "label": "Je lâche une remarque bien piquante."
         }
       ]
     },
     {
       "id": 2,
-      "prompt": "Un ami propose un projet un peu ambitieux. Quelle réaction te ressemble ?",
+      "prompt": "Un ami propose un projet. Ta réaction ?",
       "options": [
         {
           "profileId": 5,
-          "label": "Je glisse quelques suggestions pour l'orienter vers ce que je préfère."
+          "label": "Je l’oriente discrètement vers mon idée."
         },
         {
           "profileId": 6,
-          "label": "Je relève d'abord ce qui pourrait mal se passer."
+          "label": "Je repère surtout les risques."
         },
         {
           "profileId": 7,
-          "label": "Je me laisse gagner par l'enthousiasme ou les doutes du groupe."
+          "label": "Je suis l’humeur du groupe."
         },
         {
           "profileId": 8,
-          "label": "Je demande quand on commence et pourquoi on n'avance pas déjà."
+          "label": "Je veux commencer tout de suite."
         }
       ]
     },
     {
       "id": 3,
-      "prompt": "Un proche annule un rendez-vous à la dernière minute. Comment réagis-tu ?",
+      "prompt": "Un ami annule au dernier moment. Tu réagis comment ?",
       "options": [
         {
           "profileId": 9,
-          "label": "Je dis que ce n'est pas grave, même si ça s'ajoute à d'autres contrariétés."
+          "label": "Je dis que ça va, mais je garde ma frustration."
         },
         {
           "profileId": 10,
-          "label": "Je préfère prendre mes distances un moment."
+          "label": "Je prends mes distances."
         },
         {
           "profileId": 11,
-          "label": "Je cherche à savoir si je compte toujours autant pour lui."
+          "label": "Je cherche à être rassuré sur mon importance."
         },
         {
           "profileId": 12,
-          "label": "Je tiens à comprendre précisément la raison de l'annulation."
+          "label": "J’insiste pour connaître la raison exacte."
         }
       ]
     },
     {
       "id": 4,
-      "prompt": "Il faut choisir un restaurant à plusieurs. Tu as tendance à…",
+      "prompt": "Vous choisissez un restaurant. Tu fais quoi ?",
       "options": [
         {
           "profileId": 13,
-          "label": "Trancher pour tout le monde pour éviter une discussion sans fin."
+          "label": "Je tranche pour tout le monde."
         },
         {
           "profileId": 14,
-          "label": "Laisser les autres gérer, même si j'avais lancé l'idée."
+          "label": "Je laisse les autres réserver, même si c’était mon idée."
         },
         {
           "profileId": 15,
-          "label": "Écarter franchement les options que je considère mauvaises."
+          "label": "Je classe les options en bonnes et mauvaises."
         },
         {
           "profileId": 16,
-          "label": "Comparer les menus, horaires, trajets et prévoir une solution de secours."
+          "label": "Je vérifie menus, horaires et trajets."
         }
       ]
     },
     {
       "id": 5,
-      "prompt": "Un ami te reproche une habitude qui l'agace. Quelle est ta première réaction ?",
+      "prompt": "Un ami critique une de tes habitudes. Ta réaction ?",
       "options": [
         {
           "profileId": 17,
-          "label": "Je garde longtemps le souvenir de cette remarque."
+          "label": "Je risque de lui en vouloir longtemps."
         },
         {
           "profileId": 18,
-          "label": "J'explique surtout pourquoi cette habitude m'arrange."
+          "label": "Je défends surtout ce qui m’arrange."
         },
         {
           "profileId": 19,
-          "label": "Je me justifie avant qu'il ait terminé."
+          "label": "Je me justifie avant la fin de sa phrase."
         },
         {
           "profileId": 20,
-          "label": "Je cherche à rétablir rapidement le contact pour que tout redevienne normal."
+          "label": "Je lui demande plusieurs fois si tout va bien entre nous."
         }
       ]
     },
     {
       "id": 6,
-      "prompt": "Une mauvaise nouvelle tombe pendant une journée chargée. Que se passe-t-il ?",
+      "prompt": "Une mauvaise nouvelle tombe. Que fais-tu ?",
       "options": [
         {
           "profileId": 21,
-          "label": "J'ai besoin d'en parler longuement, parfois au détriment du reste."
+          "label": "J’en parle longuement à mes proches."
         },
         {
           "profileId": 22,
-          "label": "Je change mes plans plusieurs fois en cours de route."
+          "label": "Je bouleverse plusieurs fois mes plans."
         },
         {
           "profileId": 23,
-          "label": "Cela fait soudain remonter des contrariétés anciennes."
+          "label": "Je ressors d’anciennes frustrations."
         },
         {
           "profileId": 24,
-          "label": "J'imagine rapidement toutes les difficultés qui pourraient en découler."
+          "label": "J’imagine les problèmes que ça pourrait entraîner."
         }
       ]
     },
     {
       "id": 7,
-      "prompt": "Un imprévu bouleverse ton programme du week-end. Tu fais quoi ?",
+      "prompt": "Ton programme du week-end tombe à l’eau. Tu réagis comment ?",
       "options": [
         {
           "profileId": 25,
-          "label": "Ma réaction dépend beaucoup de mon humeur du moment."
+          "label": "Ça dépend beaucoup de mon humeur."
         },
         {
           "profileId": 26,
-          "label": "Je compare les nouvelles possibilités sans réussir à choisir."
+          "label": "J’hésite entre plusieurs nouveaux plans."
         },
         {
           "profileId": 1,
-          "label": "Je laisse sortir mon agacement avant de réfléchir."
+          "label": "Je râle immédiatement."
         },
         {
           "profileId": 2,
-          "label": "Je me lance à fond dans une nouvelle idée sur un coup d'enthousiasme."
+          "label": "Je m’emballe pour une nouvelle idée."
         }
       ]
     },
     {
       "id": 8,
-      "prompt": "Dans une discussion animée, qu'est-ce qui t'arrive le plus souvent ?",
+      "prompt": "Pendant un débat, tu as plutôt tendance à…",
       "options": [
         {
           "profileId": 3,
-          "label": "Je relance un débat qui aurait pu s'arrêter."
+          "label": "Je relance même quand ça se calme."
         },
         {
           "profileId": 4,
-          "label": "Je fais une remarque ironique ou particulièrement franche."
+          "label": "Je fais des remarques acides."
         },
         {
           "profileId": 5,
-          "label": "Je pose des questions pour orienter discrètement la conclusion."
+          "label": "J’oriente discrètement les avis."
         },
         {
           "profileId": 6,
-          "label": "Je rappelle les limites et les risques de l'idée discutée."
+          "label": "Je souligne surtout les risques."
         }
       ]
     },
     {
       "id": 9,
-      "prompt": "On te demande un service alors que tu es déjà occupé. Tu fais quoi ?",
+      "prompt": "Un ami réclame ton aide alors que tu es occupé. Tu fais quoi ?",
       "options": [
         {
           "profileId": 7,
-          "label": "Je me laisse facilement entraîner par l'urgence ressentie par les autres."
+          "label": "Je me laisse gagner par son stress."
         },
         {
           "profileId": 8,
-          "label": "Je demande tout de suite ce qu'il faut et combien de temps ça prendra."
+          "label": "Je veux régler ça au plus vite."
         },
         {
           "profileId": 9,
-          "label": "J'accepte même si je suis contrarié, puis je le garde pour moi."
+          "label": "J’accepte, même si ça m’agace."
         },
         {
           "profileId": 10,
-          "label": "Je raccourcis l'échange et prends un peu de recul."
+          "label": "Je réponds froidement pour couper court."
         }
       ]
     },
     {
       "id": 10,
-      "prompt": "Un projet collectif traîne depuis plusieurs jours. Quel est ton réflexe ?",
+      "prompt": "Un projet de groupe stagne. Ton réflexe ?",
       "options": [
         {
           "profileId": 11,
-          "label": "Je rappelle ce que j'ai apporté au projet."
+          "label": "Je rappelle ma contribution au groupe."
         },
         {
           "profileId": 12,
-          "label": "Je continue à défendre la méthode que j'avais choisie."
+          "label": "Je reste attaché à ma méthode."
         },
         {
           "profileId": 13,
-          "label": "Je distribue les tâches moi-même."
+          "label": "Je reprends les commandes."
         },
         {
           "profileId": 14,
-          "label": "Je me concentre sur autre chose en laissant le groupe régler le blocage."
+          "label": "Je laisse les autres gérer le blocage."
         }
       ]
     },
     {
       "id": 11,
-      "prompt": "On te propose une sortie qui ne t'arrange pas vraiment. Tu tends à…",
+      "prompt": "Une sortie ne t’arrange pas. Tu fais quoi ?",
       "options": [
         {
           "profileId": 15,
-          "label": "Dire rapidement que l'idée ne me convient pas."
+          "label": "Je juge vite que c’est une mauvaise idée."
         },
         {
           "profileId": 16,
-          "label": "Recalculer tout mon programme pour vérifier les possibilités."
+          "label": "Je réorganise tout mon planning."
         },
         {
           "profileId": 17,
-          "label": "Me souvenir si cette personne m'a déjà imposé des sorties similaires."
+          "label": "Je repense aux fois où j’ai déjà dû céder."
         },
         {
           "profileId": 18,
-          "label": "Proposer une alternative qui me convient, sans toujours vérifier les contraintes des autres."
+          "label": "Je propose ce qui m’arrange sans consulter tout le monde."
         }
       ]
     },
     {
       "id": 12,
-      "prompt": "Pendant une soirée, un proche semble moins disponible que d'habitude. Tu…",
+      "prompt": "Une soirée entre amis tourne mal. Tu réagis comment ?",
       "options": [
         {
           "profileId": 19,
-          "label": "Me demande s'il me reproche quelque chose et prépare ma défense."
+          "label": "Je me justifie si quelqu’un me critique."
         },
         {
           "profileId": 20,
-          "label": "Cherche plusieurs fois à rétablir la proximité."
+          "label": "Je cherche constamment la présence d’un proche."
         },
         {
           "profileId": 21,
-          "label": "Ai besoin de lui expliquer en détail ce que cela me fait ressentir."
+          "label": "Je raconte longuement mon ressenti."
         },
         {
           "profileId": 22,
-          "label": "Change d'activité, puis reviens, puis repars selon les occasions."
+          "label": "Je change sans cesse d’activité ou de programme."
         }
       ]
     },
     {
       "id": 13,
-      "prompt": "Tu attends une réponse importante et elle tarde. Quel comportement te ressemble ?",
+      "prompt": "Un plan important devient incertain. Tu réagis comment ?",
       "options": [
         {
           "profileId": 23,
-          "label": "Je repense soudain à une ancienne attente qui s'était mal passée."
+          "label": "Je ressors un vieux reproche lié à la situation."
         },
         {
           "profileId": 24,
-          "label": "J'imagine les conséquences successives d'une réponse défavorable."
+          "label": "J’imagine toutes les complications possibles."
         },
         {
           "profileId": 25,
-          "label": "Mon ton change selon les petites contrariétés de la journée."
+          "label": "Mon ton varie selon mon humeur."
         },
         {
           "profileId": 26,
-          "label": "Je n'arrive pas à décider de la suite tant que toutes les options restent ouvertes."
+          "label": "Je n’arrive plus à choisir la suite."
         }
       ]
     },
     {
       "id": 14,
-      "prompt": "Une personne remet en cause ton idée en réunion. Comment réponds-tu ?",
+      "prompt": "Quelqu’un conteste ton idée. Tu fais quoi ?",
       "options": [
         {
           "profileId": 1,
-          "label": "Je réponds du tac au tac avant de peser mes mots."
+          "label": "Je réplique sans réfléchir."
         },
         {
           "profileId": 5,
-          "label": "Je tente de l'amener indirectement à revoir son avis."
+          "label": "Je tente de lui faire changer d’avis subtilement."
         },
         {
           "profileId": 13,
-          "label": "Je reprends la direction de la discussion et fixe la décision."
+          "label": "J’impose ma décision."
         },
         {
           "profileId": 15,
-          "label": "Je considère assez vite que son argument est valable ou non, sans entre-deux."
+          "label": "Je rejette vite les arguments qui me déplaisent."
         }
       ]
     },
     {
       "id": 15,
-      "prompt": "Tu découvres une nouvelle activité qui te plaît. Quelle est ta tendance ?",
+      "prompt": "Tu découvres une nouvelle activité. Ton réflexe ?",
       "options": [
         {
           "profileId": 2,
-          "label": "Je m'y investis énormément dès les premiers jours."
+          "label": "Je m’y investis à fond dès le début."
         },
         {
           "profileId": 8,
-          "label": "Je veux rapidement progresser et voir des résultats."
+          "label": "Je veux des résultats rapidement."
         },
         {
           "profileId": 12,
-          "label": "Je reste focalisé sur une méthode, même si d'autres sont proposées."
+          "label": "Je m’accroche à une seule méthode."
         },
         {
           "profileId": 26,
-          "label": "J'hésite longtemps entre les différentes façons de commencer."
+          "label": "J’hésite longtemps sur la façon de commencer."
         }
       ]
     },
     {
       "id": 16,
-      "prompt": "Le groupe n'est pas d'accord sur l'organisation d'une fête. Tu…",
+      "prompt": "Vous n’êtes pas d’accord sur une fête. Tu fais quoi ?",
       "options": [
         {
           "profileId": 3,
-          "label": "Ajoutes des arguments et prolonges le débat."
+          "label": "Je rajoute des arguments au débat."
         },
         {
           "profileId": 7,
-          "label": "Adoptes facilement l'agacement des personnes avec lesquelles tu discutes."
+          "label": "Je reprends vite l’agacement des autres."
         },
         {
           "profileId": 6,
-          "label": "Soulignes surtout les problèmes possibles."
+          "label": "Je liste ce qui risque de mal tourner."
         },
         {
           "profileId": 18,
-          "label": "Défends d'abord les horaires et les options qui t'arrangent."
+          "label": "Je défends surtout ce qui m’arrange."
         }
       ]
     },
     {
       "id": 17,
-      "prompt": "Une remarque d'un proche te blesse. Quelle est ta réaction habituelle ?",
+      "prompt": "Une remarque d’un proche te blesse. Tu réagis comment ?",
       "options": [
         {
           "profileId": 4,
-          "label": "Je réponds avec une phrase sèche ou ironique."
+          "label": "Je réponds avec une pique."
         },
         {
           "profileId": 10,
-          "label": "Je deviens moins communicatif pour prendre du recul."
+          "label": "Je deviens froid et distant."
         },
         {
           "profileId": 19,
-          "label": "Je me protège en expliquant pourquoi la remarque est injustifiée."
+          "label": "Je me défends immédiatement."
         },
         {
           "profileId": 23,
-          "label": "Je ressors une ancienne situation comparable qui m'avait aussi contrarié."
+          "label": "Je ressors un ancien reproche."
         }
       ]
     },
     {
       "id": 18,
-      "prompt": "Une contrariété survient au milieu d'une conversation avec un ami. Tu…",
+      "prompt": "Un ami te contrarie. Que fais-tu ?",
       "options": [
         {
           "profileId": 9,
-          "label": "La passes sous silence pour ne pas gâcher l'échange."
+          "label": "Je garde ma frustration pour moi."
         },
         {
           "profileId": 17,
-          "label": "La gardes en mémoire même après la fin de la discussion."
+          "label": "Je continue à lui en vouloir après ses excuses."
         },
         {
           "profileId": 21,
-          "label": "En parles si longuement que le sujet initial disparaît."
+          "label": "Je monopolise la discussion pour expliquer mon ressenti."
         },
         {
           "profileId": 24,
-          "label": "Te demandes si elle risque d'entraîner toute une série de complications."
+          "label": "J’imagine que ça va créer d’autres problèmes."
         }
       ]
     },
     {
       "id": 19,
-      "prompt": "Vous préparez un voyage à plusieurs. Quel défaut pourrait te correspondre ?",
+      "prompt": "Vous préparez un voyage. Quel réflexe te ressemble ?",
       "options": [
         {
           "profileId": 11,
-          "label": "J'aime que mon rôle dans l'organisation soit reconnu."
+          "label": "Je veux que mon rôle soit remarqué."
         },
         {
           "profileId": 14,
-          "label": "Je laisse parfois les autres régler les complications liées à mes choix."
+          "label": "Je laisse parfois les autres gérer mes oublis."
         },
         {
           "profileId": 16,
-          "label": "Je prévois tellement de détails que les imprévus deviennent gênants."
+          "label": "Je planifie chaque détail."
         },
         {
           "profileId": 20,
-          "label": "Je préfère que les participants restent très disponibles pour communiquer."
+          "label": "Je veux que mes proches restent toujours joignables."
         }
       ]
     },
     {
       "id": 20,
-      "prompt": "Un ami change encore d'avis sur une sortie. Tu réagis comment ?",
+      "prompt": "Un ami change encore d’avis sur une sortie. Tu fais quoi ?",
       "options": [
         {
           "profileId": 22,
-          "label": "Je change à mon tour de programme et lance d'autres idées."
+          "label": "Je lance plusieurs nouveaux plans."
         },
         {
           "profileId": 25,
-          "label": "Ma réaction varie beaucoup selon l'état dans lequel je suis."
+          "label": "Ma réaction dépend de mon humeur."
         },
         {
           "profileId": 1,
-          "label": "Je manifeste immédiatement mon irritation."
+          "label": "Je lui montre aussitôt mon agacement."
         },
         {
           "profileId": 5,
-          "label": "Je présente subtilement les options pour le ramener à mon choix préféré."
+          "label": "Je l’oriente subtilement vers mon choix."
         }
       ]
     },
     {
       "id": 21,
-      "prompt": "Une équipe doit choisir entre plusieurs idées créatives. Quelle attitude te ressemble ?",
+      "prompt": "Vous devez choisir une idée créative. Tu fais quoi ?",
       "options": [
         {
           "profileId": 13,
-          "label": "Je choisis une direction et pousse le groupe à la suivre."
+          "label": "Je pousse le groupe à suivre mon choix."
         },
         {
           "profileId": 15,
-          "label": "Je classe rapidement les idées en bonnes et mauvaises."
+          "label": "Je classe vite les idées en bonnes ou mauvaises."
         },
         {
           "profileId": 2,
-          "label": "Je m'emballe pour une proposition et veux tout développer autour d'elle."
+          "label": "Je m’emballe pour une idée."
         },
         {
           "profileId": 8,
-          "label": "Je trouve la discussion trop lente et veux passer à l'action."
+          "label": "Je veux arrêter de discuter et commencer."
         }
       ]
     },
     {
       "id": 22,
-      "prompt": "Tu participes à un débat sur un sujet qui te tient à cœur. Tu…",
+      "prompt": "Un débat te tient à cœur. Ton réflexe ?",
       "options": [
         {
           "profileId": 12,
-          "label": "Restes accroché à ton argument principal malgré les alternatives."
+          "label": "Je reste fixé sur mon argument principal."
         },
         {
           "profileId": 26,
-          "label": "Changes d'avis plusieurs fois sans parvenir à conclure."
+          "label": "J’hésite longtemps avant de prendre position."
         },
         {
           "profileId": 3,
-          "label": "Ajoutes de nouveaux arguments quand le débat commence à se calmer."
+          "label": "Je relance quand le débat se calme."
         },
         {
           "profileId": 7,
-          "label": "Te laisses gagner par l'intensité du groupe."
+          "label": "Je reprends le ton des autres."
         }
       ]
     },
     {
       "id": 23,
-      "prompt": "Une personne te demande de modifier tes habitudes. Comment réagis-tu ?",
+      "prompt": "On te demande de changer une habitude. Ta réaction ?",
       "options": [
         {
           "profileId": 6,
-          "label": "Je souligne d'abord toutes les difficultés que le changement pourrait créer."
+          "label": "Je souligne ce qui risque de mal se passer."
         },
         {
           "profileId": 18,
-          "label": "Je pense surtout à l'effort que cela me demanderait."
+          "label": "Je pense d’abord à mon confort."
         },
         {
           "profileId": 4,
-          "label": "Je réponds très franchement, même si ma réponse est peu diplomate."
+          "label": "Je réponds franchement, sans prendre de pincettes."
         },
         {
           "profileId": 10,
-          "label": "Je limite un moment la conversation pour ne pas avoir à en parler."
+          "label": "Je deviens distant pour éviter le sujet."
         }
       ]
     },
     {
       "id": 24,
-      "prompt": "Après une discussion difficile, que fais-tu généralement ?",
+      "prompt": "Après une dispute, quel réflexe te ressemble ?",
       "options": [
         {
           "profileId": 19,
-          "label": "Je continue à défendre ma position si le sujet revient."
+          "label": "Je continue à justifier ma position."
         },
         {
           "profileId": 23,
-          "label": "Je peux reparler brusquement d'un ancien désaccord lié à celui-ci."
+          "label": "Je ressors brusquement de vieux reproches."
         },
         {
           "profileId": 9,
-          "label": "Je garde les points qui me dérangent sans les exprimer."
+          "label": "Je garde encore des frustrations non dites."
         },
         {
           "profileId": 17,
-          "label": "Je reste marqué par le conflit, même après les excuses."
+          "label": "Je reste rancunier, même après les excuses."
         }
       ]
     },
     {
       "id": 25,
-      "prompt": "Un projet que tu apprécies rencontre un obstacle. Quel comportement te ressemble ?",
+      "prompt": "Un projet rencontre un obstacle. Tu fais quoi ?",
       "options": [
         {
           "profileId": 21,
-          "label": "J'en parle beaucoup à mon entourage, même quand il a d'autres préoccupations."
+          "label": "J’en parle longuement, même si les autres sont occupés."
         },
         {
           "profileId": 24,
-          "label": "Je déroule mentalement la chaîne des complications possibles."
+          "label": "J’imagine une cascade de complications."
         },
         {
           "profileId": 11,
-          "label": "Je rappelle combien je me suis investi dans le projet."
+          "label": "Je rappelle tout ce que j’ai apporté."
         },
         {
           "profileId": 14,
-          "label": "Je laisse parfois d'autres personnes gérer les conséquences à ma place."
+          "label": "Je laisse les autres gérer ma part du problème."
         }
       ]
     },
     {
       "id": 26,
-      "prompt": "Une soirée prévue depuis longtemps doit être réorganisée. Tu…",
+      "prompt": "Une soirée doit être réorganisée. Tu fais quoi ?",
       "options": [
         {
           "profileId": 16,
-          "label": "Refais un programme détaillé pour chaque nouvelle possibilité."
+          "label": "Je refais un planning détaillé."
         },
         {
           "profileId": 20,
-          "label": "Cherches à ce que les personnes concernées restent joignables."
+          "label": "Je relance mes proches pour rester en contact."
         },
         {
           "profileId": 22,
-          "label": "Proposes successivement plusieurs idées différentes."
+          "label": "Je propose des plans sans cesse différents."
         },
         {
           "profileId": 25,
-          "label": "Réagis avec plus ou moins de souplesse selon ton humeur du moment."
+          "label": "Je réagis plus ou moins bien selon mon humeur."
         }
       ]
     },
     {
       "id": 27,
-      "prompt": "Une erreur informatique te fait perdre du temps. Comment réagis-tu ?",
+      "prompt": "Un bug informatique bloque ton travail. Tu fais quoi ?",
       "options": [
         {
           "profileId": 1,
-          "label": "Je râle immédiatement, puis je me calme."
+          "label": "Je râle sur le moment, puis ça passe."
         },
         {
           "profileId": 8,
-          "label": "Je supporte mal de devoir attendre la résolution."
+          "label": "Je supporte mal d’attendre."
         },
         {
           "profileId": 17,
-          "label": "Je continue à en vouloir à la personne responsable, même après correction."
+          "label": "J’en veux encore au responsable après réparation."
         },
         {
           "profileId": 20,
-          "label": "Je relance fréquemment la personne qui peut m'aider."
+          "label": "Je relance sans cesse le proche qui m’aide."
         }
       ]
     },
     {
       "id": 28,
-      "prompt": "Lors d'une rencontre, quelle tendance pourrait te jouer des tours ?",
+      "prompt": "Tu rencontres quelqu’un qui te plaît. Ton réflexe ?",
       "options": [
         {
           "profileId": 2,
-          "label": "Je me projette très vite dans les activités qu'on pourrait faire ensemble."
+          "label": "Je me projette très vite avec cette personne."
         },
         {
           "profileId": 11,
-          "label": "Je cherche parfois à capter davantage l'attention."
+          "label": "Je cherche à capter son attention."
         },
         {
           "profileId": 21,
-          "label": "Je raconte ce qui me préoccupe sans toujours laisser assez de place à l'autre."
+          "label": "Je parle beaucoup de mes propres émotions."
         },
         {
           "profileId": 25,
-          "label": "Mon ton change selon les événements de la journée."
+          "label": "Mon ton varie selon les contrariétés de ma journée."
         }
       ]
     },
     {
       "id": 29,
-      "prompt": "Un désaccord survient dans un groupe de discussion. Que fais-tu ?",
+      "prompt": "Un conflit éclate dans un groupe de discussion. Tu fais quoi ?",
       "options": [
         {
           "profileId": 3,
-          "label": "Je rajoute des éléments qui ravivent la discussion."
+          "label": "Je rajoute des éléments qui relancent le conflit."
         },
         {
           "profileId": 10,
-          "label": "Je cesse de participer sans forcément expliquer pourquoi."
+          "label": "Je cesse de répondre sans explication."
         },
         {
           "profileId": 14,
-          "label": "Je détourne le sujet quand ma propre part est évoquée."
+          "label": "Je détourne le sujet quand on évoque ma responsabilité."
         },
         {
           "profileId": 24,
-          "label": "J'imagine que le désaccord pourrait entraîner de plus grandes complications."
+          "label": "J’imagine que le groupe risque de se diviser."
         }
       ]
     },
     {
       "id": 30,
-      "prompt": "Tu dois prendre une décision importante dans un délai raisonnable. Tu…",
+      "prompt": "Une décision collective approche. Tu fais quoi ?",
       "options": [
         {
           "profileId": 4,
-          "label": "Communiques tes réserves sans prendre beaucoup de précautions."
+          "label": "Je dis ce que je pense sans ménager les autres."
         },
         {
           "profileId": 12,
-          "label": "Restes concentré sur la piste que tu as identifiée au départ."
+          "label": "Je reste fixé sur mon premier choix."
         },
         {
           "profileId": 16,
-          "label": "Élabores plusieurs plans très détaillés avant de décider."
+          "label": "Je prépare des plans pour chaque scénario."
         },
         {
           "profileId": 26,
-          "label": "Repousses la décision pour comparer encore les options."
+          "label": "Je repousse le choix pour comparer encore."
         }
       ]
     },
     {
       "id": 31,
-      "prompt": "Quel comportement est le plus probable lorsque tu reçois un commentaire négatif ?",
+      "prompt": "Tu reçois une critique. Ta réaction ?",
       "options": [
         {
           "profileId": 5,
-          "label": "Je tente de faire changer d'avis la personne sans le lui demander directement."
+          "label": "Je cherche à faire changer l’autre d’avis indirectement."
         },
         {
           "profileId": 9,
-          "label": "Je retiens ma réponse mais la contrariété s'accumule."
+          "label": "Je ne dis rien, mais ça s’accumule."
         },
         {
           "profileId": 15,
-          "label": "Je décide assez rapidement si la remarque est pertinente ou absurde."
+          "label": "Je décide vite si elle est valable ou absurde."
         },
         {
           "profileId": 19,
-          "label": "Je me justifie avant d'examiner ce qu'elle pourrait m'apprendre."
+          "label": "Je me justifie avant d’y réfléchir."
         }
       ]
     },
     {
       "id": 32,
-      "prompt": "Une tension s'installe dans un groupe d'amis. Tu…",
+      "prompt": "Deux amis se disputent. Tu réagis comment ?",
       "options": [
         {
           "profileId": 6,
-          "label": "Exprimes tes doutes sur la capacité du groupe à la résoudre."
+          "label": "Je doute que les choses puissent s’arranger."
         },
         {
           "profileId": 7,
-          "label": "Te laisses gagner par le ton des personnes présentes."
+          "label": "Je me laisse gagner par leur agacement."
         },
         {
           "profileId": 13,
-          "label": "Proposes une décision et attends que les autres s'y conforment."
+          "label": "Je décide de ce qu’ils devraient faire."
         },
         {
           "profileId": 23,
-          "label": "Évoques soudain un ancien incident que tu pensais avoir dépassé."
+          "label": "Je ressors un vieux conflit lié à la dispute."
         }
       ]
     },
     {
       "id": 33,
-      "prompt": "Une tâche commune doit être réalisée avant ce soir. Tu…",
+      "prompt": "Un travail collectif est urgent. Ton réflexe ?",
       "options": [
         {
           "profileId": 18,
-          "label": "Défends surtout la manière qui t'arrange le mieux."
+          "label": "Je privilégie la méthode qui m’arrange."
         },
         {
           "profileId": 22,
-          "label": "Commences plusieurs pistes avant d'en finir une."
+          "label": "Je commence plusieurs tâches à la fois."
         },
         {
           "profileId": 1,
-          "label": "Manifestes vivement ton agacement si quelque chose coince."
+          "label": "Je m’énerve dès qu’un truc coince."
         },
         {
           "profileId": 8,
-          "label": "Presses les autres pour gagner du temps."
+          "label": "Je presse les autres pour aller plus vite."
         }
       ]
     },
     {
       "id": 34,
-      "prompt": "Quel est ton réflexe quand une conversation ne se déroule pas comme tu l'espérais ?",
+      "prompt": "Une discussion avec un proche se passe mal. Tu fais quoi ?",
       "options": [
         {
           "profileId": 17,
-          "label": "Je retiens longtemps ce qui m'a déçu."
+          "label": "Je lui en veux encore longtemps après."
         },
         {
           "profileId": 20,
-          "label": "Je multiplie les tentatives pour retrouver la proximité."
+          "label": "Je cherche plusieurs fois à rétablir le contact."
         },
         {
           "profileId": 2,
-          "label": "Je m'investis encore plus pour rendre la conversation intéressante."
+          "label": "Je m’investis à fond pour raviver l’échange."
         },
         {
           "profileId": 11,
-          "label": "J'essaie de ramener l'attention vers ce que je raconte."
+          "label": "Je ramène la conversation à ce que je raconte."
         }
       ]
     },
     {
       "id": 35,
-      "prompt": "Une personne te confie une petite contrariété. Que risques-tu de faire ?",
+      "prompt": "Un ami vient se plaindre. Quelle réaction te ressemble ?",
       "options": [
         {
           "profileId": 21,
-          "label": "Parler longuement de ce que cela me fait ressentir."
+          "label": "Je finis par parler longuement de mon ressenti."
         },
         {
           "profileId": 25,
-          "label": "Répondre plus sèchement certains jours que d'autres."
+          "label": "Je l’écoute plus ou moins bien selon mon humeur."
         },
         {
           "profileId": 3,
-          "label": "Alimenter le sujet avec de nouveaux griefs ou arguments."
+          "label": "Je rajoute de quoi alimenter son agacement."
         },
         {
           "profileId": 10,
-          "label": "Prendre de la distance si la discussion devient trop inconfortable."
+          "label": "Je prends mes distances si ça devient inconfortable."
         }
       ]
     },
     {
       "id": 36,
-      "prompt": "Tu constates qu'une décision collective a été mauvaise. Tu…",
+      "prompt": "Une décision collective était mauvaise. Tu fais quoi ?",
       "options": [
         {
           "profileId": 14,
-          "label": "Tentes de te détacher de la responsabilité du choix."
+          "label": "J’évite de reconnaître ma part de responsabilité."
         },
         {
           "profileId": 24,
-          "label": "Imagines immédiatement les conséquences en chaîne."
+          "label": "J’imagine toutes les complications à venir."
         },
         {
           "profileId": 4,
-          "label": "Dis très directement ce que tu en penses."
+          "label": "Je dis franchement que c’était une mauvaise idée."
         },
         {
           "profileId": 12,
-          "label": "Restes attaché à la solution que tu défendais avant."
+          "label": "Je reste accroché à la solution que je défendais."
         }
       ]
     },
     {
       "id": 37,
-      "prompt": "Tu as plusieurs tâches à faire, mais une nouvelle demande arrive. Tu…",
+      "prompt": "On te rajoute une tâche imprévue. Tu fais quoi ?",
       "options": [
         {
           "profileId": 16,
-          "label": "Réorganises précisément toute ta journée avant de répondre."
+          "label": "Je réorganise précisément mon planning."
         },
         {
           "profileId": 26,
-          "label": "Hésites longuement sur la priorité à donner."
+          "label": "J’hésite longtemps sur mes priorités."
         },
         {
           "profileId": 5,
-          "label": "Essaies d'orienter la demande pour qu'elle s'adapte à tes préférences."
+          "label": "Je négocie indirectement pour obtenir ce qui m’arrange."
         },
         {
           "profileId": 9,
-          "label": "Acceptes malgré toi et gardes ta contrariété pour plus tard."
+          "label": "J’accepte sans dire que ça m’agace."
         }
       ]
     },
     {
       "id": 38,
-      "prompt": "Une personne n'est pas d'accord avec ton avis. Quelle réaction est la plus familière ?",
+      "prompt": "Quelqu’un n’est pas d’accord avec toi. Tu fais quoi ?",
       "options": [
         {
           "profileId": 15,
-          "label": "Je considère vite que son raisonnement est juste ou faux."
+          "label": "Je tranche vite : son avis est juste ou faux."
         },
         {
           "profileId": 19,
-          "label": "Je défends immédiatement ma position personnelle."
+          "label": "Je défends aussitôt ma position."
         },
         {
           "profileId": 6,
-          "label": "Je souligne surtout ce qui pourrait échouer dans son approche."
+          "label": "Je souligne surtout les risques de son idée."
         },
         {
           "profileId": 7,
-          "label": "Je reprends facilement le ton ou les réserves des autres personnes."
+          "label": "Je reprends facilement le ton du groupe."
         }
       ]
     },
     {
       "id": 39,
-      "prompt": "Lors d'un projet de plusieurs semaines, quelle difficulté reviens-tu parfois rencontrer ?",
+      "prompt": "Un projet dure plusieurs semaines. Quel défaut te ressemble ?",
       "options": [
         {
           "profileId": 13,
-          "label": "Je prends trop de décisions sans consulter les autres."
+          "label": "Je décide trop souvent sans consulter."
         },
         {
           "profileId": 23,
-          "label": "Je fais ressurgir d'anciennes frustrations quand un problème se répète."
+          "label": "Je ressors de vieux reproches en cas de problème."
         },
         {
           "profileId": 18,
-          "label": "Je tiens d'abord compte de mes besoins sans toujours demander ceux du groupe."
+          "label": "Je privilégie mes besoins à ceux du groupe."
         },
         {
           "profileId": 22,
-          "label": "Je change plusieurs fois d'objectif avant d'avoir terminé le précédent."
+          "label": "Je change d’objectif avant de terminer."
         }
       ]
     },
     {
       "id": 40,
-      "prompt": "Un événement imprévu remet en question un plan déjà fixé. Tu…",
+      "prompt": "Un plan commun doit changer. Ton réflexe ?",
       "options": [
         {
           "profileId": 3,
-          "label": "Relances une discussion que tout le monde pensait terminée."
+          "label": "Je relance les anciens débats sur ce plan."
         },
         {
           "profileId": 10,
-          "label": "Prends de la distance et réponds moins."
+          "label": "Je prends mes distances et réponds moins."
         },
         {
           "profileId": 16,
-          "label": "Replanifies tous les détails pour reprendre le contrôle."
+          "label": "Je replanifie tous les détails."
         },
         {
           "profileId": 24,
-          "label": "Imagines les complications qui pourraient s'enchaîner."
+          "label": "J’imagine une série de complications."
         }
       ]
     }
-  ]
+  ],
+  "questionnaireRevision": 2
 }
