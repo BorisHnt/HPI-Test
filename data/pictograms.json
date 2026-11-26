@@ -1,5 +1,5 @@
 {
-  "status": "26 fichiers SVG repérés dans Wikimedia Commons. Les licences et crédits individuels restent à contrôler sur les pages des fichiers avant copie dans le site. Les noms de fichiers ne constituent pas une preuve de licence.",
+  "status": "20 pictogrammes actifs; six références historiques conservées uniquement pour les anciens résultats. Licences individuelles à vérifier avant redistribution.",
   "visual": "Triangles jaunes à bordure noire; conserver les proportions originales et harmoniser la taille d'affichage en CSS.",
   "assets": [
     {
@@ -141,7 +141,9 @@
       "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W041_warning%3B_breathing_hazard.svg",
       "target": "assets/signs/W041.svg",
       "licenseStatus": "pending-review"
-    },
+    }
+  ],
+  "legacyAssets": [
     {
       "iso": "W056",
       "filename": "ISO 7010 W056 warning; tsunami hazard zone.svg",
