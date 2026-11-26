@@ -1,0 +1,188 @@
+{
+  "status": "26 fichiers SVG repérés dans Wikimedia Commons. Les licences et crédits individuels restent à contrôler sur les pages des fichiers avant copie dans le site. Les noms de fichiers ne constituent pas une preuve de licence.",
+  "visual": "Triangles jaunes à bordure noire; conserver les proportions originales et harmoniser la taille d'affichage en CSS.",
+  "assets": [
+    {
+      "iso": "W002",
+      "filename": "ISO 7010 W002.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W002.svg",
+      "target": "assets/signs/W002.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W021",
+      "filename": "ISO 7010 W021.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W021.svg",
+      "target": "assets/signs/W021.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W028",
+      "filename": "ISO 7010 W028.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W028.svg",
+      "target": "assets/signs/W028.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W023",
+      "filename": "ISO 7010 W023.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W023.svg",
+      "target": "assets/signs/W023.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W016",
+      "filename": "ISO 7010 W016.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W016.svg",
+      "target": "assets/signs/W016.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W003",
+      "filename": "ISO 7010 W003.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W003.svg",
+      "target": "assets/signs/W003.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W009",
+      "filename": "ISO 7010 W009.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W009.svg",
+      "target": "assets/signs/W009.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W012",
+      "filename": "ISO 7010 W012.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W012.svg",
+      "target": "assets/signs/W012.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W029",
+      "filename": "ISO 7010 W029.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W029.svg",
+      "target": "assets/signs/W029.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W010",
+      "filename": "ISO 7010 W010.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W010.svg",
+      "target": "assets/signs/W010.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W006",
+      "filename": "ISO 7010 W006.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W006.svg",
+      "target": "assets/signs/W006.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W004",
+      "filename": "ISO 7010 W004.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W004.svg",
+      "target": "assets/signs/W004.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W019",
+      "filename": "ISO 7010 W019.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W019.svg",
+      "target": "assets/signs/W019.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W011",
+      "filename": "ISO 7010 W011.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W011.svg",
+      "target": "assets/signs/W011.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W022",
+      "filename": "ISO 7010 W022.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W022.svg",
+      "target": "assets/signs/W022.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W018",
+      "filename": "ISO 7010 W018.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W018.svg",
+      "target": "assets/signs/W018.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W071",
+      "filename": "ISO 7010 W071 CC0.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W071_CC0.svg",
+      "target": "assets/signs/W071.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W072",
+      "filename": "ISO 7010 W072 CC0.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W072_CC0.svg",
+      "target": "assets/signs/W072.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W033",
+      "filename": "ISO 7010 W033 warning; barbed wire.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W033_warning%3B_barbed_wire.svg",
+      "target": "assets/signs/W033.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W041",
+      "filename": "ISO 7010 W041 warning; breathing hazard.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W041_warning%3B_breathing_hazard.svg",
+      "target": "assets/signs/W041.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W056",
+      "filename": "ISO 7010 W056 warning; tsunami hazard zone.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W056_warning%3B_tsunami_hazard_zone.svg",
+      "target": "assets/signs/W056.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W074",
+      "filename": "ISO 7010 W074.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W074.svg",
+      "target": "assets/signs/W074.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W075",
+      "filename": "ISO 7010 W075.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W075.svg",
+      "target": "assets/signs/W075.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W083",
+      "filename": "ISO 7010 W083.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W083.svg",
+      "target": "assets/signs/W083.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W084",
+      "filename": "ISO 7010 W084.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W084.svg",
+      "target": "assets/signs/W084.svg",
+      "licenseStatus": "pending-review"
+    },
+    {
+      "iso": "W061",
+      "filename": "ISO 7010 W061 warning; quicksand, mud, deep mud, or silt.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:ISO_7010_W061_warning%3B_quicksand%2C_mud%2C_deep_mud%2C_or_silt.svg",
+      "target": "assets/signs/W061.svg",
+      "licenseStatus": "pending-review"
+    }
+  ]
+}
