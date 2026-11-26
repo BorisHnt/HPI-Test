@@ -457,7 +457,7 @@
     },
     {
       "id": 8,
-      "prompt": "Pendant un débat, tu as plutôt tendance à…",
+      "prompt": "Pendant un débat, quel réflexe te ressemble ?",
       "options": [
         {
           "profileId": 3,
@@ -875,7 +875,7 @@
     },
     {
       "id": 27,
-      "prompt": "Un bug informatique bloque ton travail. Tu fais quoi ?",
+      "prompt": "Un proche tarde à te rendre un service. Ta réaction ?",
       "options": [
         {
           "profileId": 1,
@@ -883,15 +883,15 @@
         },
         {
           "profileId": 8,
-          "label": "Je supporte mal d’attendre."
+          "label": "Je supporte mal de devoir attendre."
         },
         {
           "profileId": 17,
-          "label": "J’en veux encore au responsable après réparation."
+          "label": "Je lui en veux encore une fois le service rendu."
         },
         {
           "profileId": 20,
-          "label": "Je relance sans cesse le proche qui m’aide."
+          "label": "Je lui envoie plusieurs messages pour le relancer."
         }
       ]
     },
@@ -1041,7 +1041,7 @@
         },
         {
           "profileId": 2,
-          "label": "Je m’investis à fond pour raviver l’échange."
+          "label": "Je redouble d’enthousiasme pour relancer l’échange."
         },
         {
           "profileId": 11,
@@ -1117,7 +1117,7 @@
     },
     {
       "id": 38,
-      "prompt": "Quelqu’un n’est pas d’accord avec toi. Tu fais quoi ?",
+      "prompt": "En groupe, quelqu’un conteste ton avis. Tu fais quoi ?",
       "options": [
         {
           "profileId": 15,
