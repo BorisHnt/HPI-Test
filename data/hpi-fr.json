@@ -1,0 +1,1185 @@
+{
+  "version": "0.1.0",
+  "language": "fr",
+  "title": "TEST HPI — Hazard Personality Index",
+  "disclaimer": "Test humoristique non validé scientifiquement. Il décrit des tendances déclarées et ne constitue ni un diagnostic ni une mesure de dangerosité réelle.",
+  "scoring": {
+    "method": "forced-choice-normalized",
+    "instructions": "Mélanger l'ordre des questions et des réponses. Choisir une seule réponse par question, la plus proche de son comportement habituel. Chaque réponse attribue un point au profil correspondant. Score = points / appearances. Classer par score décroissant, puis par points bruts. En cas d'égalité persistante à la frontière du signe ou de l'ascendant, demander au participant de choisir entre les profils à égalité, en présentant leurs descriptions comportementales sans afficher les symboles. Ne jamais présenter le score comme une probabilité ni un percentile. Les deux premiers profils distincts constituent le signe et l'ascendant. Le score mesure une fréquence de sélection relative aux occasions de choisir le profil, pas un niveau absolu de danger."
+  },
+  "assets": {
+    "status": "Références ISO vérifiées; fichiers SVG et licences individuelles à sélectionner avant intégration. Ne pas utiliser cette catégorie comme URL d'image.",
+    "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+    "catalogue": "https://reesly.eu/residual-risks"
+  },
+  "profiles": [
+    {
+      "id": 1,
+      "iso": "W002",
+      "name": "Explosif",
+      "trait": "Réaction impulsive",
+      "sign": "Tu réagis parfois avant d'avoir eu le temps de réfléchir. Une contrariété mineure peut provoquer une réponse beaucoup plus vive que prévu. Tu retrouves souvent ton calme rapidement, mais les autres n'ont pas toujours eu le temps de s'en remettre. Ta spontanéité devient une force quand tu lui laisses quelques secondes de réflexion.",
+      "ascendant": "Ton profil principal prend parfois une tournure brusque : face à un imprévu, tu peux agir ou parler avant d'avoir évalué les conséquences. L'intensité retombe généralement aussi vite qu'elle est montée.",
+      "precaution": "Attendre dix secondes avant toute mise à feu.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 2,
+      "iso": "W021",
+      "name": "Inflammable",
+      "trait": "Emballement",
+      "sign": "Tu t'investis rapidement dans ce qui te stimule. Une idée séduisante devient vite un projet monumental, et une rencontre prometteuse peut monopoliser ton attention. Ton enthousiasme est communicatif, mais tu peux négliger les limites et la durée de ton engagement.",
+      "ascendant": "Ta tendance dominante s'intensifie facilement lorsque quelque chose te passionne. Tu peux consacrer beaucoup d'énergie à une situation avant de vérifier si elle en mérite autant.",
+      "precaution": "Laisser refroidir avant tout engagement.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 3,
+      "iso": "W028",
+      "name": "Comburant",
+      "trait": "Amplification des désaccords",
+      "sign": "Tu ne déclenches pas forcément les tensions, mais tu sais leur donner du carburant. En ajoutant des arguments, des anecdotes ou de nouvelles interprétations, tu transformes parfois une discussion réglable en dossier interminable. Ton goût pour l'analyse gagne à savoir quand s'arrêter.",
+      "ascendant": "Quand un désaccord existe déjà, ton profil principal peut se renforcer en alimentant la discussion. Tu ajoutes parfois des éléments alors que l'apaisement serait plus utile.",
+      "precaution": "Ne pas ajouter d'arguments sur une discussion encore chaude.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 7
+    },
+    {
+      "id": 4,
+      "iso": "W023",
+      "name": "Corrosif",
+      "trait": "Franchise abrasive",
+      "sign": "Tu apprécies les mots précis et les vérités sans emballage. Ton humour mordant et tes remarques directes peuvent être efficaces, mais parfois abîmer la confiance à force de petites piques. Ton honnêteté n'a pas besoin de disparaître : elle gagne à être formulée avec tact.",
+      "ascendant": "Ta tendance principale s'exprime parfois par des phrases plus acides que nécessaire. Même une observation pertinente peut être difficile à entendre si sa formulation érode la confiance.",
+      "precaution": "Diluer la franchise dans une dose de tact.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 5,
+      "iso": "W016",
+      "name": "Poison",
+      "trait": "Influence indirecte",
+      "sign": "Tu préfères parfois orienter une décision discrètement plutôt que formuler clairement ton souhait. Tu sais lire une situation et choisir le moment opportun, mais tes interlocuteurs peuvent ne pas comprendre ce que tu attends réellement. La stratégie devient plus saine lorsqu'elle laisse une vraie liberté de choix.",
+      "ascendant": "Ton profil dominant peut emprunter des voies détournées : indices, sous-entendus ou suggestions ciblées plutôt qu'une demande explicite. Dire directement ce que tu souhaites réduit les malentendus.",
+      "precaution": "Déclarer clairement les ingrédients et les intentions.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 6,
+      "iso": "W003",
+      "name": "Radioactif",
+      "trait": "Pessimisme diffus",
+      "sign": "Tu repères facilement les risques et les défauts d'un projet. Le problème apparaît lorsque tes réserves contaminent l'ambiance, même sans conflit ouvert. Ton sens de l'anticipation est précieux s'il s'accompagne aussi de pistes constructives.",
+      "ascendant": "Ton profil principal s'accompagne parfois d'un commentaire pessimiste qui reste dans l'air. Même lorsque tu ne cherches pas à décourager, tes réserves peuvent freiner l'enthousiasme collectif.",
+      "precaution": "Limiter le rayonnement des scénarios négatifs.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 7,
+      "iso": "W009",
+      "name": "Biologique",
+      "trait": "Contagion émotionnelle",
+      "sign": "Tu captes rapidement l'ambiance d'un groupe. Lorsqu'une personne s'agace ou s'inquiète, tu peux adopter cette humeur et la retransmettre sans t'en rendre compte. Ta sensibilité aux autres est utile, mais tu gagnes à distinguer ce que tu ressens de ce que tu absorbes.",
+      "ascendant": "Ton comportement dominant devient plus marqué quand l'ambiance collective le nourrit. Tu reprends parfois le ton ou les inquiétudes des autres avant de te demander ce que tu en penses personnellement.",
+      "precaution": "Respecter une quarantaine avant de relayer une humeur.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 8,
+      "iso": "W012",
+      "name": "Haute tension",
+      "trait": "Impatience",
+      "sign": "Tu apprécies les décisions rapides et les actions efficaces. Les délais, les explications interminables et les hésitations t'agacent vite. Ton énergie fait avancer les choses, mais tu risques d'imposer ton rythme à des personnes qui ont besoin de davantage de temps.",
+      "ascendant": "Ton signe dominant s'accompagne d'une pression temporelle : tu souhaites que les choses avancent rapidement, même quand les autres préfèrent mûrir leur décision.",
+      "precaution": "Mise à la terre avant toute file d'attente.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 9,
+      "iso": "W029",
+      "name": "Sous pression",
+      "trait": "Accumulation silencieuse",
+      "sign": "Tu préfères souvent prendre sur toi pour ne pas compliquer la situation. Les petits inconforts s'accumulent jusqu'à devenir une charge importante, alors que les autres ignorent parfois leur existence. Ton endurance serait mieux employée si tu exprimais tes limites plus tôt.",
+      "ascendant": "Tu peux garder pour toi ce que ton signe dominant te fait ressentir. Les tensions restent discrètes, mais leur accumulation complique les échanges lorsqu'elles finissent par être exprimées.",
+      "precaution": "Purge régulière des petites frustrations.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 10,
+      "iso": "W010",
+      "name": "Cryogénique",
+      "trait": "Retrait affectif",
+      "sign": "Lorsque les échanges deviennent inconfortables, tu réduis parfois le contact et la chaleur de tes réponses. Cette distance t'aide à reprendre tes esprits, mais elle peut laisser les autres dans l'incertitude. Prévenir que tu as besoin d'espace rend ton retrait plus compréhensible.",
+      "ascendant": "Ton profil dominant peut se mettre en veille froide lorsque la discussion devient trop intense. Tu gagnes à signaler ton besoin de distance plutôt que de laisser l'autre le deviner.",
+      "precaution": "Annoncer les périodes de refroidissement.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 7
+    },
+    {
+      "id": 11,
+      "iso": "W006",
+      "name": "Magnétique",
+      "trait": "Recherche d'attention",
+      "sign": "Tu aimes sentir que ta présence compte et que tes contributions sont remarquées. Tu sais capter l'intérêt, mais tu peux ramener la conversation vers toi lorsque l'attention se déplace. Ton aisance sociale s'équilibre en laissant aussi les autres occuper le premier plan.",
+      "ascendant": "Ton signe principal peut s'exprimer plus fortement lorsque tu te sens peu remarqué. Un besoin de reconnaissance accompagne alors tes réactions, même si ce n'est pas leur moteur initial.",
+      "precaution": "Partager le champ d'attraction.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 12,
+      "iso": "W004",
+      "name": "Laser",
+      "trait": "Obstination",
+      "sign": "Quand tu identifies une piste, tu concentres ton énergie dessus avec une précision remarquable. Tu peux toutefois ignorer les alternatives, même lorsque de nouvelles informations les rendent intéressantes. Ta détermination est plus efficace si tu sais réorienter le faisceau.",
+      "ascendant": "Ta tendance dominante peut se focaliser sur un détail, une idée ou un objectif et devenir difficile à détourner. Une pause pour envisager d'autres pistes aide à éviter l'effet tunnel.",
+      "precaution": "Réexaminer régulièrement le point de focalisation.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 13,
+      "iso": "W019",
+      "name": "Écrasant",
+      "trait": "Domination des décisions",
+      "sign": "Tu prends facilement les commandes lorsque personne ne tranche. Cette capacité à structurer une situation est utile, mais tu peux décider à la place des autres ou minimiser leurs objections. Une décision efficace reste meilleure lorsqu'elle tient compte des personnes concernées.",
+      "ascendant": "Ton profil principal peut se traduire par une tendance à imposer la marche à suivre. Tu risques alors de confondre avancer rapidement et décider pour tout le monde.",
+      "precaution": "Ne pas dépasser la charge décisionnelle autorisée.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 14,
+      "iso": "W011",
+      "name": "Glissant",
+      "trait": "Évitement des responsabilités",
+      "sign": "Tu sais trouver une issue lorsqu'une situation devient gênante. Cette souplesse peut cependant te conduire à détourner la conversation ou à laisser à d'autres le soin de résoudre un problème auquel tu as contribué. Reconnaître ta part facilite souvent la sortie.",
+      "ascendant": "Quand ton profil dominant entraîne une conséquence désagréable, tu peux être tenté de déplacer le sujet plutôt que de l'affronter. Une reconnaissance simple de ta part évite que le problème persiste.",
+      "precaution": "Assumer son appui avant de changer de direction.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 15,
+      "iso": "W022",
+      "name": "Tranchant",
+      "trait": "Jugements catégoriques",
+      "sign": "Tu apprécies les distinctions claires et les avis nets. Lorsque les situations sont ambiguës, tu peux classer trop vite les idées ou les comportements en deux camps. Ta capacité de synthèse devient plus juste si elle laisse une place aux nuances.",
+      "ascendant": "Ton signe dominant s'accompagne parfois de conclusions abruptes. Tu peux juger une situation sur un seul élément, alors que le contexte pourrait modifier ton appréciation.",
+      "precaution": "Ajouter une marge de nuance avant toute découpe.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 16,
+      "iso": "W018",
+      "name": "Automatique",
+      "trait": "Surplanification",
+      "sign": "Tu aimes prévoir les étapes, les contraintes et les éventuels changements avant qu'ils arrivent. La préparation te rassure, mais tu peux passer plus de temps à organiser qu'à vivre une situation. Ton sens de l'organisation gagne à intégrer des espaces non programmés.",
+      "ascendant": "Ton profil principal s'accompagne d'une tendance à scénariser la suite. Tu cherches à rendre les événements prévisibles, parfois au détriment de la spontanéité.",
+      "precaution": "Prévoir une zone réservée aux imprévus.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 7
+    },
+    {
+      "id": 17,
+      "iso": "W071",
+      "name": "Nocif",
+      "trait": "Rancune persistante",
+      "sign": "Tu n'oublies pas facilement les déceptions. Même après une discussion ou des excuses, le souvenir peut continuer à influencer ta manière d'interagir. Ta mémoire des expériences t'aide à apprendre, mais conserver chaque dette relationnelle peut rendre les réparations difficiles.",
+      "ascendant": "Ton signe dominant laisse parfois une trace durable après l'événement. Même si la situation est réglée, tu peux continuer à l'interpréter à travers une ancienne déception.",
+      "precaution": "Vérifier la date de péremption des griefs.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 18,
+      "iso": "W072",
+      "name": "Polluant",
+      "trait": "Manque de réciprocité",
+      "sign": "Tu peux être très absorbé par tes préoccupations et attendre des autres qu'ils s'y adaptent. Tu ne remarques pas toujours la place que prennent tes besoins dans le groupe. Ton aptitude à défendre tes intérêts devient plus équilibrée quand tu vérifies aussi ceux des autres.",
+      "ascendant": "Ton signe principal peut occuper plus d'espace que tu ne le souhaites. Tu risques de privilégier tes propres contraintes sans mesurer l'effort demandé aux autres.",
+      "precaution": "Compenser toute émission par une dose de réciprocité.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 19,
+      "iso": "W033",
+      "name": "Barbelé",
+      "trait": "Défensive",
+      "sign": "Tu protèges rapidement tes limites lorsque tu te sens remis en question. Tu peux interpréter un conseil ou une critique comme une intrusion, avant d'en examiner le contenu. Ton sens de l'autoprotection est utile, mais toute remarque n'est pas une tentative de franchir tes frontières.",
+      "ascendant": "Ton profil principal se hérisse lorsqu'il est remis en question. Tu peux te justifier avant même d'avoir entendu la remarque jusqu'au bout.",
+      "precaution": "Vérifier l'intention avant de relever les barbelés.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 20,
+      "iso": "W041",
+      "name": "Asphyxiant",
+      "trait": "Demande excessive de disponibilité",
+      "sign": "Tu apprécies les liens proches et les échanges fréquents. Quand une personne se rend moins disponible, tu peux chercher à rétablir le contact au-delà de ce qu'elle souhaite sur le moment. Ton attention devient plus agréable lorsqu'elle respecte aussi les temps d'autonomie.",
+      "ascendant": "Ton signe dominant peut s'accompagner d'un besoin de présence ou de réponses rapides de la part de tes proches. Laisser de l'espace évite que ton attention devienne une pression.",
+      "precaution": "Assurer une ventilation relationnelle suffisante.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 21,
+      "iso": "W056",
+      "name": "Tsunami",
+      "trait": "Occupation émotionnelle de l'espace",
+      "sign": "Quand quelque chose te touche, tu peux avoir besoin d'en parler longuement et intensément. Ton émotion occupe alors une grande partie de l'échange, parfois sans laisser de place à celle des autres. Ta capacité à partager devient plus équilibrée si tu vérifies leur disponibilité.",
+      "ascendant": "Ton signe principal prend parfois une ampleur qui déborde sur la conversation. Tu peux monopoliser l'espace pour expliquer ton ressenti, même lorsque d'autres souhaitent aussi être entendus.",
+      "precaution": "Vérifier la capacité d'accueil avant la montée des eaux.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 22,
+      "iso": "W074",
+      "name": "Tornade",
+      "trait": "Dispersion et changements de cap",
+      "sign": "Tu démarres facilement de nouvelles choses et modifies volontiers tes plans lorsque quelque chose de plus intéressant apparaît. Cette créativité peut désorganiser les engagements partagés et compliquer le suivi des tâches. Ton agilité est plus utile lorsque tu annonces les changements.",
+      "ascendant": "Ton signe dominant peut s'exprimer de manière dispersée, à travers des changements de cap successifs. Les autres peuvent avoir du mal à suivre si tu ne leur donnes pas de repères.",
+      "precaution": "Sécuriser les engagements avant tout changement de trajectoire.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 23,
+      "iso": "W075",
+      "name": "Volcanique",
+      "trait": "Réactivation brutale d'anciens griefs",
+      "sign": "Tu peux sembler avoir laissé derrière toi un désaccord, puis le ressortir soudainement lorsqu'une situation te le rappelle. Ce retour inattendu complique les discussions présentes. Ta capacité à relier les expériences est utile si tu distingues ce qui se passe aujourd'hui de ce qui reste à régler.",
+      "ascendant": "Ton signe dominant peut soudain réveiller une ancienne frustration. Le sujet initial s'élargit alors à des événements que les autres pensaient clos.",
+      "precaution": "Traiter les anciennes tensions séparément de l'incident actuel.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 24,
+      "iso": "W083",
+      "name": "Avalanche",
+      "trait": "Enchaînement des scénarios négatifs",
+      "sign": "Tu vois rapidement les conséquences possibles d'un problème, puis celles de ces conséquences. Une petite erreur peut ainsi devenir dans ton esprit une succession de difficultés hypothétiques. Ton anticipation devient plus utile si tu sépares les faits des scénarios possibles.",
+      "ascendant": "Ton profil principal peut prendre de l'ampleur par effet boule de neige. À partir d'un seul obstacle, tu imagines plusieurs conséquences en cascade avant d'avoir vérifié la première.",
+      "precaution": "Interrompre la cascade au premier fait non vérifié.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 7
+    },
+    {
+      "id": 25,
+      "iso": "W084",
+      "name": "Orageux",
+      "trait": "Variabilité du ton",
+      "sign": "Ta manière d'interagir peut changer sensiblement selon la fatigue, les contrariétés ou l'ambiance du moment. Une conversation banale reçoit parfois une réponse plus sèche que prévu. Ta réactivité à ton environnement devient plus lisible lorsque tu expliques simplement ton état du moment.",
+      "ascendant": "Ton signe principal peut varier fortement selon les circonstances. Ce qui te paraît acceptable à un moment peut t'agacer plus tard, sans que tes interlocuteurs comprennent le changement.",
+      "precaution": "Annoncer les perturbations météorologiques locales.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    },
+    {
+      "id": 26,
+      "iso": "W061",
+      "name": "Sables mouvants",
+      "trait": "Indécision prolongée",
+      "sign": "Tu aimes examiner plusieurs possibilités avant de t'engager. Mais plus tu cherches la décision parfaite, plus il devient difficile de choisir, et les autres restent parfois suspendus à ton hésitation. Ton goût pour la réflexion gagne à s'accompagner d'une limite de temps.",
+      "ascendant": "Ton signe dominant peut être ralenti par un besoin de comparer encore et encore les options. Une décision réversible et suffisamment bonne t'aide à sortir de l'enlisement.",
+      "precaution": "Fixer une échéance avant de s'enfoncer dans les options.",
+      "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
+      "appearances": 6
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "prompt": "Une discussion de groupe commence à tourner au désaccord. Que fais-tu le plus spontanément ?",
+      "options": [
+        {
+          "profileId": 1,
+          "label": "Je réagis immédiatement, parfois trop vivement."
+        },
+        {
+          "profileId": 2,
+          "label": "Je me passionne pour mon argument et m'y investis à fond."
+        },
+        {
+          "profileId": 3,
+          "label": "Je rajoute des exemples qui relancent le débat."
+        },
+        {
+          "profileId": 4,
+          "label": "Je formule une remarque très directe, quitte à piquer."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Un ami propose un projet un peu ambitieux. Quelle réaction te ressemble ?",
+      "options": [
+        {
+          "profileId": 5,
+          "label": "Je glisse quelques suggestions pour l'orienter vers ce que je préfère."
+        },
+        {
+          "profileId": 6,
+          "label": "Je relève d'abord ce qui pourrait mal se passer."
+        },
+        {
+          "profileId": 7,
+          "label": "Je me laisse gagner par l'enthousiasme ou les doutes du groupe."
+        },
+        {
+          "profileId": 8,
+          "label": "Je demande quand on commence et pourquoi on n'avance pas déjà."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Un proche annule un rendez-vous à la dernière minute. Comment réagis-tu ?",
+      "options": [
+        {
+          "profileId": 9,
+          "label": "Je dis que ce n'est pas grave, même si ça s'ajoute à d'autres contrariétés."
+        },
+        {
+          "profileId": 10,
+          "label": "Je préfère prendre mes distances un moment."
+        },
+        {
+          "profileId": 11,
+          "label": "Je cherche à savoir si je compte toujours autant pour lui."
+        },
+        {
+          "profileId": 12,
+          "label": "Je tiens à comprendre précisément la raison de l'annulation."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Il faut choisir un restaurant à plusieurs. Tu as tendance à…",
+      "options": [
+        {
+          "profileId": 13,
+          "label": "Trancher pour tout le monde pour éviter une discussion sans fin."
+        },
+        {
+          "profileId": 14,
+          "label": "Laisser les autres gérer, même si j'avais lancé l'idée."
+        },
+        {
+          "profileId": 15,
+          "label": "Écarter franchement les options que je considère mauvaises."
+        },
+        {
+          "profileId": 16,
+          "label": "Comparer les menus, horaires, trajets et prévoir une solution de secours."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Un ami te reproche une habitude qui l'agace. Quelle est ta première réaction ?",
+      "options": [
+        {
+          "profileId": 17,
+          "label": "Je garde longtemps le souvenir de cette remarque."
+        },
+        {
+          "profileId": 18,
+          "label": "J'explique surtout pourquoi cette habitude m'arrange."
+        },
+        {
+          "profileId": 19,
+          "label": "Je me justifie avant qu'il ait terminé."
+        },
+        {
+          "profileId": 20,
+          "label": "Je cherche à rétablir rapidement le contact pour que tout redevienne normal."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Une mauvaise nouvelle tombe pendant une journée chargée. Que se passe-t-il ?",
+      "options": [
+        {
+          "profileId": 21,
+          "label": "J'ai besoin d'en parler longuement, parfois au détriment du reste."
+        },
+        {
+          "profileId": 22,
+          "label": "Je change mes plans plusieurs fois en cours de route."
+        },
+        {
+          "profileId": 23,
+          "label": "Cela fait soudain remonter des contrariétés anciennes."
+        },
+        {
+          "profileId": 24,
+          "label": "J'imagine rapidement toutes les difficultés qui pourraient en découler."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "Un imprévu bouleverse ton programme du week-end. Tu fais quoi ?",
+      "options": [
+        {
+          "profileId": 25,
+          "label": "Ma réaction dépend beaucoup de mon humeur du moment."
+        },
+        {
+          "profileId": 26,
+          "label": "Je compare les nouvelles possibilités sans réussir à choisir."
+        },
+        {
+          "profileId": 1,
+          "label": "Je laisse sortir mon agacement avant de réfléchir."
+        },
+        {
+          "profileId": 2,
+          "label": "Je me lance à fond dans une nouvelle idée sur un coup d'enthousiasme."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "Dans une discussion animée, qu'est-ce qui t'arrive le plus souvent ?",
+      "options": [
+        {
+          "profileId": 3,
+          "label": "Je relance un débat qui aurait pu s'arrêter."
+        },
+        {
+          "profileId": 4,
+          "label": "Je fais une remarque ironique ou particulièrement franche."
+        },
+        {
+          "profileId": 5,
+          "label": "Je pose des questions pour orienter discrètement la conclusion."
+        },
+        {
+          "profileId": 6,
+          "label": "Je rappelle les limites et les risques de l'idée discutée."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "prompt": "On te demande un service alors que tu es déjà occupé. Tu fais quoi ?",
+      "options": [
+        {
+          "profileId": 7,
+          "label": "Je me laisse facilement entraîner par l'urgence ressentie par les autres."
+        },
+        {
+          "profileId": 8,
+          "label": "Je demande tout de suite ce qu'il faut et combien de temps ça prendra."
+        },
+        {
+          "profileId": 9,
+          "label": "J'accepte même si je suis contrarié, puis je le garde pour moi."
+        },
+        {
+          "profileId": 10,
+          "label": "Je raccourcis l'échange et prends un peu de recul."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "prompt": "Un projet collectif traîne depuis plusieurs jours. Quel est ton réflexe ?",
+      "options": [
+        {
+          "profileId": 11,
+          "label": "Je rappelle ce que j'ai apporté au projet."
+        },
+        {
+          "profileId": 12,
+          "label": "Je continue à défendre la méthode que j'avais choisie."
+        },
+        {
+          "profileId": 13,
+          "label": "Je distribue les tâches moi-même."
+        },
+        {
+          "profileId": 14,
+          "label": "Je me concentre sur autre chose en laissant le groupe régler le blocage."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "prompt": "On te propose une sortie qui ne t'arrange pas vraiment. Tu tends à…",
+      "options": [
+        {
+          "profileId": 15,
+          "label": "Dire rapidement que l'idée ne me convient pas."
+        },
+        {
+          "profileId": 16,
+          "label": "Recalculer tout mon programme pour vérifier les possibilités."
+        },
+        {
+          "profileId": 17,
+          "label": "Me souvenir si cette personne m'a déjà imposé des sorties similaires."
+        },
+        {
+          "profileId": 18,
+          "label": "Proposer une alternative qui me convient, sans toujours vérifier les contraintes des autres."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "prompt": "Pendant une soirée, un proche semble moins disponible que d'habitude. Tu…",
+      "options": [
+        {
+          "profileId": 19,
+          "label": "Me demande s'il me reproche quelque chose et prépare ma défense."
+        },
+        {
+          "profileId": 20,
+          "label": "Cherche plusieurs fois à rétablir la proximité."
+        },
+        {
+          "profileId": 21,
+          "label": "Ai besoin de lui expliquer en détail ce que cela me fait ressentir."
+        },
+        {
+          "profileId": 22,
+          "label": "Change d'activité, puis reviens, puis repars selon les occasions."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "prompt": "Tu attends une réponse importante et elle tarde. Quel comportement te ressemble ?",
+      "options": [
+        {
+          "profileId": 23,
+          "label": "Je repense soudain à une ancienne attente qui s'était mal passée."
+        },
+        {
+          "profileId": 24,
+          "label": "J'imagine les conséquences successives d'une réponse défavorable."
+        },
+        {
+          "profileId": 25,
+          "label": "Mon ton change selon les petites contrariétés de la journée."
+        },
+        {
+          "profileId": 26,
+          "label": "Je n'arrive pas à décider de la suite tant que toutes les options restent ouvertes."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "prompt": "Une personne remet en cause ton idée en réunion. Comment réponds-tu ?",
+      "options": [
+        {
+          "profileId": 1,
+          "label": "Je réponds du tac au tac avant de peser mes mots."
+        },
+        {
+          "profileId": 5,
+          "label": "Je tente de l'amener indirectement à revoir son avis."
+        },
+        {
+          "profileId": 13,
+          "label": "Je reprends la direction de la discussion et fixe la décision."
+        },
+        {
+          "profileId": 15,
+          "label": "Je considère assez vite que son argument est valable ou non, sans entre-deux."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "prompt": "Tu découvres une nouvelle activité qui te plaît. Quelle est ta tendance ?",
+      "options": [
+        {
+          "profileId": 2,
+          "label": "Je m'y investis énormément dès les premiers jours."
+        },
+        {
+          "profileId": 8,
+          "label": "Je veux rapidement progresser et voir des résultats."
+        },
+        {
+          "profileId": 12,
+          "label": "Je reste focalisé sur une méthode, même si d'autres sont proposées."
+        },
+        {
+          "profileId": 26,
+          "label": "J'hésite longtemps entre les différentes façons de commencer."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "prompt": "Le groupe n'est pas d'accord sur l'organisation d'une fête. Tu…",
+      "options": [
+        {
+          "profileId": 3,
+          "label": "Ajoutes des arguments et prolonges le débat."
+        },
+        {
+          "profileId": 7,
+          "label": "Adoptes facilement l'agacement des personnes avec lesquelles tu discutes."
+        },
+        {
+          "profileId": 6,
+          "label": "Soulignes surtout les problèmes possibles."
+        },
+        {
+          "profileId": 18,
+          "label": "Défends d'abord les horaires et les options qui t'arrangent."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "prompt": "Une remarque d'un proche te blesse. Quelle est ta réaction habituelle ?",
+      "options": [
+        {
+          "profileId": 4,
+          "label": "Je réponds avec une phrase sèche ou ironique."
+        },
+        {
+          "profileId": 10,
+          "label": "Je deviens moins communicatif pour prendre du recul."
+        },
+        {
+          "profileId": 19,
+          "label": "Je me protège en expliquant pourquoi la remarque est injustifiée."
+        },
+        {
+          "profileId": 23,
+          "label": "Je ressors une ancienne situation comparable qui m'avait aussi contrarié."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "prompt": "Une contrariété survient au milieu d'une conversation avec un ami. Tu…",
+      "options": [
+        {
+          "profileId": 9,
+          "label": "La passes sous silence pour ne pas gâcher l'échange."
+        },
+        {
+          "profileId": 17,
+          "label": "La gardes en mémoire même après la fin de la discussion."
+        },
+        {
+          "profileId": 21,
+          "label": "En parles si longuement que le sujet initial disparaît."
+        },
+        {
+          "profileId": 24,
+          "label": "Te demandes si elle risque d'entraîner toute une série de complications."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "prompt": "Vous préparez un voyage à plusieurs. Quel défaut pourrait te correspondre ?",
+      "options": [
+        {
+          "profileId": 11,
+          "label": "J'aime que mon rôle dans l'organisation soit reconnu."
+        },
+        {
+          "profileId": 14,
+          "label": "Je laisse parfois les autres régler les complications liées à mes choix."
+        },
+        {
+          "profileId": 16,
+          "label": "Je prévois tellement de détails que les imprévus deviennent gênants."
+        },
+        {
+          "profileId": 20,
+          "label": "Je préfère que les participants restent très disponibles pour communiquer."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "prompt": "Un ami change encore d'avis sur une sortie. Tu réagis comment ?",
+      "options": [
+        {
+          "profileId": 22,
+          "label": "Je change à mon tour de programme et lance d'autres idées."
+        },
+        {
+          "profileId": 25,
+          "label": "Ma réaction varie beaucoup selon l'état dans lequel je suis."
+        },
+        {
+          "profileId": 1,
+          "label": "Je manifeste immédiatement mon irritation."
+        },
+        {
+          "profileId": 5,
+          "label": "Je présente subtilement les options pour le ramener à mon choix préféré."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "prompt": "Une équipe doit choisir entre plusieurs idées créatives. Quelle attitude te ressemble ?",
+      "options": [
+        {
+          "profileId": 13,
+          "label": "Je choisis une direction et pousse le groupe à la suivre."
+        },
+        {
+          "profileId": 15,
+          "label": "Je classe rapidement les idées en bonnes et mauvaises."
+        },
+        {
+          "profileId": 2,
+          "label": "Je m'emballe pour une proposition et veux tout développer autour d'elle."
+        },
+        {
+          "profileId": 8,
+          "label": "Je trouve la discussion trop lente et veux passer à l'action."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "prompt": "Tu participes à un débat sur un sujet qui te tient à cœur. Tu…",
+      "options": [
+        {
+          "profileId": 12,
+          "label": "Restes accroché à ton argument principal malgré les alternatives."
+        },
+        {
+          "profileId": 26,
+          "label": "Changes d'avis plusieurs fois sans parvenir à conclure."
+        },
+        {
+          "profileId": 3,
+          "label": "Ajoutes de nouveaux arguments quand le débat commence à se calmer."
+        },
+        {
+          "profileId": 7,
+          "label": "Te laisses gagner par l'intensité du groupe."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "prompt": "Une personne te demande de modifier tes habitudes. Comment réagis-tu ?",
+      "options": [
+        {
+          "profileId": 6,
+          "label": "Je souligne d'abord toutes les difficultés que le changement pourrait créer."
+        },
+        {
+          "profileId": 18,
+          "label": "Je pense surtout à l'effort que cela me demanderait."
+        },
+        {
+          "profileId": 4,
+          "label": "Je réponds très franchement, même si ma réponse est peu diplomate."
+        },
+        {
+          "profileId": 10,
+          "label": "Je limite un moment la conversation pour ne pas avoir à en parler."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "prompt": "Après une discussion difficile, que fais-tu généralement ?",
+      "options": [
+        {
+          "profileId": 19,
+          "label": "Je continue à défendre ma position si le sujet revient."
+        },
+        {
+          "profileId": 23,
+          "label": "Je peux reparler brusquement d'un ancien désaccord lié à celui-ci."
+        },
+        {
+          "profileId": 9,
+          "label": "Je garde les points qui me dérangent sans les exprimer."
+        },
+        {
+          "profileId": 17,
+          "label": "Je reste marqué par le conflit, même après les excuses."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "prompt": "Un projet que tu apprécies rencontre un obstacle. Quel comportement te ressemble ?",
+      "options": [
+        {
+          "profileId": 21,
+          "label": "J'en parle beaucoup à mon entourage, même quand il a d'autres préoccupations."
+        },
+        {
+          "profileId": 24,
+          "label": "Je déroule mentalement la chaîne des complications possibles."
+        },
+        {
+          "profileId": 11,
+          "label": "Je rappelle combien je me suis investi dans le projet."
+        },
+        {
+          "profileId": 14,
+          "label": "Je laisse parfois d'autres personnes gérer les conséquences à ma place."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "prompt": "Une soirée prévue depuis longtemps doit être réorganisée. Tu…",
+      "options": [
+        {
+          "profileId": 16,
+          "label": "Refais un programme détaillé pour chaque nouvelle possibilité."
+        },
+        {
+          "profileId": 20,
+          "label": "Cherches à ce que les personnes concernées restent joignables."
+        },
+        {
+          "profileId": 22,
+          "label": "Proposes successivement plusieurs idées différentes."
+        },
+        {
+          "profileId": 25,
+          "label": "Réagis avec plus ou moins de souplesse selon ton humeur du moment."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "prompt": "Une erreur informatique te fait perdre du temps. Comment réagis-tu ?",
+      "options": [
+        {
+          "profileId": 1,
+          "label": "Je râle immédiatement, puis je me calme."
+        },
+        {
+          "profileId": 8,
+          "label": "Je supporte mal de devoir attendre la résolution."
+        },
+        {
+          "profileId": 17,
+          "label": "Je continue à en vouloir à la personne responsable, même après correction."
+        },
+        {
+          "profileId": 20,
+          "label": "Je relance fréquemment la personne qui peut m'aider."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "prompt": "Lors d'une rencontre, quelle tendance pourrait te jouer des tours ?",
+      "options": [
+        {
+          "profileId": 2,
+          "label": "Je me projette très vite dans les activités qu'on pourrait faire ensemble."
+        },
+        {
+          "profileId": 11,
+          "label": "Je cherche parfois à capter davantage l'attention."
+        },
+        {
+          "profileId": 21,
+          "label": "Je raconte ce qui me préoccupe sans toujours laisser assez de place à l'autre."
+        },
+        {
+          "profileId": 25,
+          "label": "Mon ton change selon les événements de la journée."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "prompt": "Un désaccord survient dans un groupe de discussion. Que fais-tu ?",
+      "options": [
+        {
+          "profileId": 3,
+          "label": "Je rajoute des éléments qui ravivent la discussion."
+        },
+        {
+          "profileId": 10,
+          "label": "Je cesse de participer sans forcément expliquer pourquoi."
+        },
+        {
+          "profileId": 14,
+          "label": "Je détourne le sujet quand ma propre part est évoquée."
+        },
+        {
+          "profileId": 24,
+          "label": "J'imagine que le désaccord pourrait entraîner de plus grandes complications."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "prompt": "Tu dois prendre une décision importante dans un délai raisonnable. Tu…",
+      "options": [
+        {
+          "profileId": 4,
+          "label": "Communiques tes réserves sans prendre beaucoup de précautions."
+        },
+        {
+          "profileId": 12,
+          "label": "Restes concentré sur la piste que tu as identifiée au départ."
+        },
+        {
+          "profileId": 16,
+          "label": "Élabores plusieurs plans très détaillés avant de décider."
+        },
+        {
+          "profileId": 26,
+          "label": "Repousses la décision pour comparer encore les options."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "prompt": "Quel comportement est le plus probable lorsque tu reçois un commentaire négatif ?",
+      "options": [
+        {
+          "profileId": 5,
+          "label": "Je tente de faire changer d'avis la personne sans le lui demander directement."
+        },
+        {
+          "profileId": 9,
+          "label": "Je retiens ma réponse mais la contrariété s'accumule."
+        },
+        {
+          "profileId": 15,
+          "label": "Je décide assez rapidement si la remarque est pertinente ou absurde."
+        },
+        {
+          "profileId": 19,
+          "label": "Je me justifie avant d'examiner ce qu'elle pourrait m'apprendre."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "prompt": "Une tension s'installe dans un groupe d'amis. Tu…",
+      "options": [
+        {
+          "profileId": 6,
+          "label": "Exprimes tes doutes sur la capacité du groupe à la résoudre."
+        },
+        {
+          "profileId": 7,
+          "label": "Te laisses gagner par le ton des personnes présentes."
+        },
+        {
+          "profileId": 13,
+          "label": "Proposes une décision et attends que les autres s'y conforment."
+        },
+        {
+          "profileId": 23,
+          "label": "Évoques soudain un ancien incident que tu pensais avoir dépassé."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "prompt": "Une tâche commune doit être réalisée avant ce soir. Tu…",
+      "options": [
+        {
+          "profileId": 18,
+          "label": "Défends surtout la manière qui t'arrange le mieux."
+        },
+        {
+          "profileId": 22,
+          "label": "Commences plusieurs pistes avant d'en finir une."
+        },
+        {
+          "profileId": 1,
+          "label": "Manifestes vivement ton agacement si quelque chose coince."
+        },
+        {
+          "profileId": 8,
+          "label": "Presses les autres pour gagner du temps."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "prompt": "Quel est ton réflexe quand une conversation ne se déroule pas comme tu l'espérais ?",
+      "options": [
+        {
+          "profileId": 17,
+          "label": "Je retiens longtemps ce qui m'a déçu."
+        },
+        {
+          "profileId": 20,
+          "label": "Je multiplie les tentatives pour retrouver la proximité."
+        },
+        {
+          "profileId": 2,
+          "label": "Je m'investis encore plus pour rendre la conversation intéressante."
+        },
+        {
+          "profileId": 11,
+          "label": "J'essaie de ramener l'attention vers ce que je raconte."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "prompt": "Une personne te confie une petite contrariété. Que risques-tu de faire ?",
+      "options": [
+        {
+          "profileId": 21,
+          "label": "Parler longuement de ce que cela me fait ressentir."
+        },
+        {
+          "profileId": 25,
+          "label": "Répondre plus sèchement certains jours que d'autres."
+        },
+        {
+          "profileId": 3,
+          "label": "Alimenter le sujet avec de nouveaux griefs ou arguments."
+        },
+        {
+          "profileId": 10,
+          "label": "Prendre de la distance si la discussion devient trop inconfortable."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "prompt": "Tu constates qu'une décision collective a été mauvaise. Tu…",
+      "options": [
+        {
+          "profileId": 14,
+          "label": "Tentes de te détacher de la responsabilité du choix."
+        },
+        {
+          "profileId": 24,
+          "label": "Imagines immédiatement les conséquences en chaîne."
+        },
+        {
+          "profileId": 4,
+          "label": "Dis très directement ce que tu en penses."
+        },
+        {
+          "profileId": 12,
+          "label": "Restes attaché à la solution que tu défendais avant."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "prompt": "Tu as plusieurs tâches à faire, mais une nouvelle demande arrive. Tu…",
+      "options": [
+        {
+          "profileId": 16,
+          "label": "Réorganises précisément toute ta journée avant de répondre."
+        },
+        {
+          "profileId": 26,
+          "label": "Hésites longuement sur la priorité à donner."
+        },
+        {
+          "profileId": 5,
+          "label": "Essaies d'orienter la demande pour qu'elle s'adapte à tes préférences."
+        },
+        {
+          "profileId": 9,
+          "label": "Acceptes malgré toi et gardes ta contrariété pour plus tard."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "prompt": "Une personne n'est pas d'accord avec ton avis. Quelle réaction est la plus familière ?",
+      "options": [
+        {
+          "profileId": 15,
+          "label": "Je considère vite que son raisonnement est juste ou faux."
+        },
+        {
+          "profileId": 19,
+          "label": "Je défends immédiatement ma position personnelle."
+        },
+        {
+          "profileId": 6,
+          "label": "Je souligne surtout ce qui pourrait échouer dans son approche."
+        },
+        {
+          "profileId": 7,
+          "label": "Je reprends facilement le ton ou les réserves des autres personnes."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "prompt": "Lors d'un projet de plusieurs semaines, quelle difficulté reviens-tu parfois rencontrer ?",
+      "options": [
+        {
+          "profileId": 13,
+          "label": "Je prends trop de décisions sans consulter les autres."
+        },
+        {
+          "profileId": 23,
+          "label": "Je fais ressurgir d'anciennes frustrations quand un problème se répète."
+        },
+        {
+          "profileId": 18,
+          "label": "Je tiens d'abord compte de mes besoins sans toujours demander ceux du groupe."
+        },
+        {
+          "profileId": 22,
+          "label": "Je change plusieurs fois d'objectif avant d'avoir terminé le précédent."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "prompt": "Un événement imprévu remet en question un plan déjà fixé. Tu…",
+      "options": [
+        {
+          "profileId": 3,
+          "label": "Relances une discussion que tout le monde pensait terminée."
+        },
+        {
+          "profileId": 10,
+          "label": "Prends de la distance et réponds moins."
+        },
+        {
+          "profileId": 16,
+          "label": "Replanifies tous les détails pour reprendre le contrôle."
+        },
+        {
+          "profileId": 24,
+          "label": "Imagines les complications qui pourraient s'enchaîner."
+        }
+      ]
+    }
+  ]
+}
