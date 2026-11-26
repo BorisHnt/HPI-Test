@@ -237,886 +237,886 @@
   "questions": [
     {
       "id": 1,
-      "prompt": "Un ami oublie de te remercier. Qu’est-ce qui te vient ?",
+      "prompt": "Un ami oublie de te remercier. Que fais-tu ?",
       "options": [
         {
           "profileId": 11,
-          "label": "Il aurait pu au moins le remarquer."
+          "label": "J’attends qu’il reconnaisse mes efforts."
         },
         {
           "profileId": 9,
-          "label": "Je ne vais pas en faire une histoire."
+          "label": "Je fais comme si de rien n’était, mais ça m’agace."
         },
         {
           "profileId": 17,
-          "label": "Je m’en souviendrai la prochaine fois."
+          "label": "Je m’en souviendrai avant de lui rendre un autre service."
         },
         {
           "profileId": 5,
-          "label": "Je glisserai que ça m’a pris du temps."
+          "label": "Je lui fais comprendre que ça m’a pris du temps."
         }
       ]
     },
     {
       "id": 2,
-      "prompt": "Vous choisissez une sortie. Tu préfères…",
+      "prompt": "Tes amis hésitent sur la prochaine sortie. Que fais-tu ?",
       "options": [
         {
           "profileId": 13,
-          "label": "Proposer un choix et le valider pour avancer."
+          "label": "Je choisis le lieu et prends les choses en main."
         },
         {
           "profileId": 16,
-          "label": "Vérifier les horaires avant de confirmer."
+          "label": "Je vérifie les horaires, le trajet et le budget."
         },
         {
           "profileId": 8,
-          "label": "Choisir vite, quitte à improviser."
+          "label": "Je veux qu’on se décide, peu importe le lieu."
         },
         {
           "profileId": 18,
-          "label": "Partir de l’option qui te convient le mieux."
+          "label": "Je propose surtout des endroits qui me plaisent."
         }
       ]
     },
     {
       "id": 3,
-      "prompt": "Un collègue critique ton idée. Quel réflexe ?",
+      "prompt": "Un collègue critique ton idée. Quel est ton réflexe ?",
       "options": [
         {
           "profileId": 19,
-          "label": "Préciser ce qu’il a mal compris."
+          "label": "Je lui explique pourquoi sa critique ne s’applique pas à mon cas."
         },
         {
           "profileId": 4,
-          "label": "Lui dire franchement ce qui cloche dans son avis."
+          "label": "Je lui fais remarquer les défauts de son propre raisonnement."
         },
         {
           "profileId": 12,
-          "label": "Continuer à creuser ton idée pour la défendre."
+          "label": "Je cherche de nouveaux arguments pour maintenir mon idée."
         },
         {
           "profileId": 15,
-          "label": "Décider si sa remarque est pertinente ou non."
+          "label": "Je me fais vite un avis définitif sur sa critique."
         }
       ]
     },
     {
       "id": 4,
-      "prompt": "Un message reste sans réponse. Tu fais quoi ?",
+      "prompt": "Un proche ne répond pas à ton message. Comment réagis-tu ?",
       "options": [
         {
           "profileId": 20,
-          "label": "Je relance pour savoir si tout va bien."
+          "label": "Je vérifie régulièrement s’il m’a répondu."
         },
         {
           "profileId": 10,
-          "label": "Je laisse un peu retomber le contact."
+          "label": "Je prends mes distances à mon tour."
         },
         {
           "profileId": 6,
-          "label": "Je me dis que ça ne présage rien de bon."
+          "label": "Je me dis que nos échanges vont finir par s’espacer."
         },
         {
           "profileId": 1,
-          "label": "J’envoie un deuxième message sur un coup d’agacement."
+          "label": "J’envoie un message agacé que je regrette ensuite."
         }
       ]
     },
     {
       "id": 5,
-      "prompt": "Une soirée entre amis s’organise. Quel réflexe te ressemble ?",
+      "prompt": "Vous organisez une soirée entre amis. Que fais-tu ?",
       "options": [
         {
           "profileId": 2,
-          "label": "Je m’emballe pour une idée de dernière minute."
+          "label": "Je propose plein d’idées sur un coup d’enthousiasme."
         },
         {
           "profileId": 3,
-          "label": "Je relance la discussion si deux avis s’opposent."
+          "label": "Je relance les débats sur les choix qui divisent le groupe."
         },
         {
           "profileId": 7,
-          "label": "Je me laisse guider par l’humeur du groupe."
+          "label": "Je me laisse guider par l’humeur des autres."
         },
         {
           "profileId": 14,
-          "label": "Je compte sur les autres pour gérer ma part."
+          "label": "Je compte sur les autres pour s’occuper de ma part."
         }
       ]
     },
     {
       "id": 6,
-      "prompt": "On te confie une tâche imprévue. Tu réagis comment ?",
+      "prompt": "On te demande un service qui tombe mal. Que fais-tu ?",
       "options": [
         {
           "profileId": 9,
-          "label": "J’accepte pour ne pas compliquer les choses."
+          "label": "J’accepte sans oser dire que ça m’arrange mal."
         },
         {
           "profileId": 16,
-          "label": "Je refais mon planning en détail."
+          "label": "Je remanie tout mon emploi du temps."
         },
         {
           "profileId": 5,
-          "label": "Je suggère qu’une autre personne serait mieux placée."
+          "label": "Je suggère habilement de demander à quelqu’un d’autre."
         },
         {
           "profileId": 8,
-          "label": "Je cherche à expédier ça rapidement."
+          "label": "Je cherche à en finir au plus vite."
         }
       ]
     },
     {
       "id": 7,
-      "prompt": "Un ami raconte une réussite. Ton réflexe ?",
+      "prompt": "Un ami t’annonce une bonne nouvelle. Que fais-tu ?",
       "options": [
         {
           "profileId": 11,
-          "label": "Je rebondis sur une réussite à moi."
+          "label": "Je raconte une réussite similaire que j’ai vécue."
         },
         {
           "profileId": 6,
-          "label": "Je remarque le risque qu’il n’a pas envisagé."
+          "label": "Je lui parle des problèmes qu’il pourrait rencontrer ensuite."
         },
         {
           "profileId": 7,
-          "label": "Je partage l’enthousiasme des gens autour."
+          "label": "Je me réjouis surtout quand tout le monde s’enthousiasme."
         },
         {
           "profileId": 4,
-          "label": "Je lui signale le détail qui me semble surestimé."
+          "label": "Je lui fais remarquer un détail qui tempère sa réussite."
         }
       ]
     },
     {
       "id": 8,
-      "prompt": "Un projet que tu aimais change de direction. Tu…",
+      "prompt": "Un projet que tu aimais change de direction. Que fais-tu ?",
       "options": [
         {
           "profileId": 12,
-          "label": "Essaies encore de sauver la première idée."
+          "label": "Je continue à défendre l’idée de départ."
         },
         {
           "profileId": 13,
-          "label": "Proposes une direction et pousses pour qu’elle soit suivie."
+          "label": "Je cherche à imposer une autre direction au groupe."
         },
         {
           "profileId": 2,
-          "label": "Te passionnes aussitôt pour la nouvelle piste."
+          "label": "Je m’investis à fond dans la nouvelle idée si elle me plaît."
         },
         {
           "profileId": 15,
-          "label": "Décides vite si le changement est bon ou mauvais."
+          "label": "Je décide vite si c’est une bonne ou une mauvaise évolution."
         }
       ]
     },
     {
       "id": 9,
-      "prompt": "Tu as oublié un engagement. Ton premier réflexe ?",
+      "prompt": "Tu as oublié un engagement. Que dis-tu ?",
       "options": [
         {
           "profileId": 14,
-          "label": "J’explique ce qui m’a empêché de le faire."
+          "label": "Je mets en avant les imprévus qui m’en ont empêché."
         },
         {
           "profileId": 19,
-          "label": "Je rappelle que les consignes n’étaient pas claires."
+          "label": "Je rappelle que ma décision était justifiée sur le moment."
         },
         {
           "profileId": 1,
-          "label": "Je réponds sèchement si on me le reproche."
+          "label": "Je lâche une réponse sèche si on insiste."
         },
         {
           "profileId": 18,
-          "label": "Je demande qu’on tienne compte de mes contraintes."
+          "label": "Je demande qu’on adapte l’engagement à mes contraintes."
         }
       ]
     },
     {
       "id": 10,
-      "prompt": "Après un petit désaccord avec un proche, tu…",
+      "prompt": "Vous venez de vous réconcilier. Que fais-tu ?",
       "options": [
         {
           "profileId": 20,
-          "label": "Cherches rapidement à retrouver vos échanges habituels."
+          "label": "Je cherche à revoir l’autre le plus vite possible."
         },
         {
           "profileId": 10,
-          "label": "Réponds moins pendant un moment."
+          "label": "Je garde un peu de distance pendant quelques jours."
         },
         {
           "profileId": 17,
-          "label": "Gardes une réserve malgré la réconciliation."
+          "label": "Je pardonne, mais je reste marqué par ce qui a été dit."
         },
         {
           "profileId": 3,
-          "label": "Reviens sur le sujet pour en discuter davantage."
+          "label": "Je remets un point du désaccord sur la table."
         }
       ]
     },
     {
       "id": 11,
-      "prompt": "On te fait une remarque en public. Ton réflexe ?",
+      "prompt": "On te fait une remarque en public. Comment réagis-tu ?",
       "options": [
         {
           "profileId": 1,
-          "label": "Je réplique avant de réfléchir."
+          "label": "Je réplique du tac au tac, sans réfléchir."
         },
         {
           "profileId": 19,
-          "label": "Je précise pourquoi la remarque est injuste."
+          "label": "Je précise pourquoi la remarque est injustifiée."
         },
         {
           "profileId": 4,
-          "label": "Je réponds avec une pointe d’ironie."
+          "label": "Je réponds avec une petite pique bien placée."
         },
         {
           "profileId": 10,
-          "label": "Je parle moins pendant le reste de l’échange."
+          "label": "Je deviens moins bavard pour le reste de l’échange."
         }
       ]
     },
     {
       "id": 12,
-      "prompt": "Un ami hésite à accepter ton invitation. Tu…",
+      "prompt": "Un ami hésite à venir te voir. Que fais-tu ?",
       "options": [
         {
           "profileId": 5,
-          "label": "Mets en avant ce qui pourrait le convaincre."
+          "label": "Je mets en avant ce qui pourrait le convaincre."
         },
         {
           "profileId": 20,
-          "label": "Lui demandes quand vous pourrez vous revoir."
+          "label": "Je lui demande quand on pourra se voir à la place."
         },
         {
           "profileId": 18,
-          "label": "Proposes surtout les créneaux qui t’arrangent."
+          "label": "Je propose surtout des créneaux qui m’arrangent."
         },
         {
           "profileId": 9,
-          "label": "Dis que ça ne te dérange pas, même si tu es déçu."
+          "label": "Je dis que ce n’est pas grave, même si je suis déçu."
         }
       ]
     },
     {
       "id": 13,
-      "prompt": "Le groupe discute d’une nouvelle activité. Tu…",
+      "prompt": "Tes amis proposent un voyage ensemble. Que fais-tu ?",
       "options": [
         {
           "profileId": 2,
-          "label": "Imagines déjà tout ce que vous pourriez en faire."
+          "label": "Je me vois déjà faire plein d’activités sur place."
         },
         {
           "profileId": 6,
-          "label": "Penses aux raisons pour lesquelles ça pourrait coincer."
+          "label": "Je pense aux galères qui pourraient gâcher le séjour."
         },
         {
           "profileId": 16,
-          "label": "Vérifies le budget et les détails pratiques."
+          "label": "Je commence à vérifier les prix et les itinéraires."
         },
         {
           "profileId": 7,
-          "label": "Te laisses gagner par l’envie générale."
+          "label": "Mon envie de partir dépend beaucoup de leur enthousiasme."
         }
       ]
     },
     {
       "id": 14,
-      "prompt": "Quel détail t’agace le plus dans un projet commun ?",
+      "prompt": "Qu’est-ce qui t’agace le plus dans un travail de groupe ?",
       "options": [
         {
           "profileId": 8,
-          "label": "Les décisions qui prennent trop de temps."
+          "label": "Le temps perdu avant de passer à l’action."
         },
         {
           "profileId": 12,
-          "label": "Qu’on abandonne une piste qui me semble bonne."
+          "label": "Qu’on abandonne une idée que je trouve bonne."
         },
         {
           "profileId": 13,
-          "label": "Que personne ne fixe une direction."
+          "label": "Que personne ne suive une direction claire."
         },
         {
           "profileId": 15,
-          "label": "Les arguments qui me semblent manquer de logique."
+          "label": "Qu’on refuse de donner un avis tranché."
         }
       ]
     },
     {
       "id": 15,
-      "prompt": "Une discussion tourne autour d’un désaccord passé. Tu…",
+      "prompt": "Vous reparlez d’un vieux désaccord. Que fais-tu ?",
       "options": [
         {
           "profileId": 3,
-          "label": "Ajoutes des détails qui méritent encore d’être discutés."
+          "label": "J’ajoute des éléments qui relancent le débat."
         },
         {
           "profileId": 17,
-          "label": "Te rappelles ce que l’autre avait dit exactement."
+          "label": "Je me souviens encore des paroles qui m’ont blessé."
         },
         {
           "profileId": 11,
-          "label": "Rappelles comment tu avais contribué à régler le problème."
+          "label": "Je rappelle mon rôle dans la réconciliation."
         },
         {
           "profileId": 14,
-          "label": "Préfères parler des circonstances plutôt que de ta part."
+          "label": "J’évite de revenir sur mes propres erreurs."
         }
       ]
     },
     {
       "id": 16,
-      "prompt": "Un proche te demande un avis sur son idée. Tu…",
+      "prompt": "Un proche te présente une idée qui ne te convainc pas. Que dis-tu ?",
       "options": [
         {
           "profileId": 4,
-          "label": "Lui dis directement le détail qui ne va pas."
+          "label": "Je pointe ce qui ne va pas, sans trop de tact."
         },
         {
           "profileId": 5,
-          "label": "Poses des questions pour l’amener à ta conclusion."
+          "label": "Je pose des questions pour l’amener à mon avis."
         },
         {
           "profileId": 15,
-          "label": "Donnes un avis assez tranché."
+          "label": "Je donne un verdict net, sans entrer dans les nuances."
         },
         {
           "profileId": 6,
-          "label": "Attires son attention sur les difficultés possibles."
+          "label": "Je lui énumère les difficultés qui pourraient survenir."
         }
       ]
     },
     {
       "id": 17,
-      "prompt": "Quelqu’un change vos plans au dernier moment. Tu…",
+      "prompt": "On change tes plans au dernier moment. Que fais-tu ?",
       "options": [
         {
           "profileId": 1,
-          "label": "Laisses échapper une remarque agacée."
+          "label": "Je laisse échapper une remarque avant de me reprendre."
         },
         {
           "profileId": 8,
-          "label": "Cherches aussitôt une solution pour avancer."
+          "label": "Je m’agace surtout de perdre du temps."
         },
         {
           "profileId": 16,
-          "label": "Refais le programme de la journée."
+          "label": "Je réorganise toute ma journée pour retrouver mes repères."
         },
         {
           "profileId": 9,
-          "label": "Dis que ça va et gardes ta contrariété."
+          "label": "Je dis que ça ne me gêne pas, mais je garde ma contrariété."
         }
       ]
     },
     {
       "id": 18,
-      "prompt": "Vous venez de réussir un projet collectif. Tu…",
+      "prompt": "Votre projet collectif vient de réussir. À quoi penses-tu ?",
       "options": [
         {
           "profileId": 11,
-          "label": "Espères que ta contribution sera citée."
+          "label": "J’espère que les autres ont remarqué ma contribution."
         },
         {
           "profileId": 18,
-          "label": "Penses d’abord à ce que tu y as gagné."
+          "label": "Je me demande surtout ce que j’en retire personnellement."
         },
         {
           "profileId": 13,
-          "label": "Proposes déjà qui fera quoi la prochaine fois."
+          "label": "Je pense à la façon dont je dirigerais le prochain."
         },
         {
           "profileId": 2,
-          "label": "As envie de lancer immédiatement un projet plus grand."
+          "label": "Je meurs d’envie de me lancer dans un projet encore plus grand."
         }
       ]
     },
     {
       "id": 19,
-      "prompt": "Un ami paraît contrarié par ton comportement. Tu…",
+      "prompt": "Un ami te dit que ton comportement l’a contrarié. Que fais-tu ?",
       "options": [
         {
           "profileId": 19,
-          "label": "Expliques d’abord ce que tu voulais vraiment dire."
+          "label": "Je lui explique d’abord que ce n’était pas mon intention."
         },
         {
           "profileId": 20,
-          "label": "Cherches à savoir si votre relation va bien."
+          "label": "Je lui demande si ça change quelque chose entre nous."
         },
         {
           "profileId": 10,
-          "label": "Prends de la distance pour ne pas en rajouter."
+          "label": "J’écourte la conversation et prends mes distances."
         },
         {
           "profileId": 14,
-          "label": "Attends qu’il aborde lui-même le problème."
+          "label": "J’attends qu’il prenne l’initiative de régler le problème."
         }
       ]
     },
     {
       "id": 20,
-      "prompt": "Deux amis ne sont pas d’accord. Tu…",
+      "prompt": "Deux amis se disputent. Comment réagis-tu ?",
       "options": [
         {
           "profileId": 7,
-          "label": "Adoptes facilement le ton de celui qui te parle."
+          "label": "Je finis par partager l’agacement de celui qui me parle."
         },
         {
           "profileId": 3,
-          "label": "Apportes d’autres exemples au débat."
+          "label": "J’apporte des arguments qui nourrissent leur débat."
         },
         {
           "profileId": 12,
-          "label": "Restes fidèle à l’explication qui te paraît juste."
+          "label": "Je m’accroche à ma première lecture de la situation."
         },
         {
           "profileId": 17,
-          "label": "Repenses aux désaccords précédents avec eux."
+          "label": "Je repense aux autres fois où l’un d’eux m’a déçu."
         }
       ]
     },
     {
       "id": 21,
-      "prompt": "Tu n’as pas reçu l’invitation que tu attendais. Tu…",
+      "prompt": "Tes amis sont sortis sans toi. Que fais-tu ?",
       "options": [
         {
           "profileId": 11,
-          "label": "Te demandes si ta présence compte vraiment."
+          "label": "Je me demande pourquoi personne n’a pensé à moi."
         },
         {
           "profileId": 17,
-          "label": "Gardes ça en tête pour les prochaines invitations."
+          "label": "Je retiens l’oubli pour la prochaine fois."
         },
         {
           "profileId": 5,
-          "label": "Fais comprendre que tu aurais aimé être invité."
+          "label": "Je glisse une remarque pour qu’ils pensent à m’inviter ensuite."
         },
         {
           "profileId": 6,
-          "label": "Te dis que le groupe risque de s’éloigner."
+          "label": "Je me dis que le groupe finira par m’oublier."
         }
       ]
     },
     {
       "id": 22,
-      "prompt": "Un ami te demande de partager une dépense. Tu…",
+      "prompt": "Vous devez partager une addition. Qu’est-ce qui te guide ?",
       "options": [
         {
           "profileId": 18,
-          "label": "Vérifies d’abord ce que ça change pour ton budget."
+          "label": "Je cherche d’abord la répartition la plus avantageuse pour moi."
         },
         {
           "profileId": 9,
-          "label": "Acceptes même si la somme te dérange."
+          "label": "J’accepte la somme proposée, même si elle me dérange."
         },
         {
           "profileId": 15,
-          "label": "Décides vite si le partage est juste ou injuste."
+          "label": "Je considère vite qu’une méthode est juste et l’autre non."
         },
         {
           "profileId": 19,
-          "label": "Expliques pourquoi ta situation est particulière."
+          "label": "Je défends mon choix si quelqu’un le remet en question."
         }
       ]
     },
     {
       "id": 23,
-      "prompt": "Une personne tarde à se décider. Tu…",
+      "prompt": "Quelqu’un hésite longtemps entre deux options. Que fais-tu ?",
       "options": [
         {
           "profileId": 8,
-          "label": "Lui demandes de choisir pour ne pas perdre de temps."
+          "label": "Je lui demande de se décider, même imparfaitement."
         },
         {
           "profileId": 13,
-          "label": "Prends la décision si elle n’avance pas."
+          "label": "Je choisis à sa place pour faire avancer les choses."
         },
         {
           "profileId": 16,
-          "label": "Proposes un cadre précis pour trancher."
+          "label": "Je lui propose une méthode de comparaison détaillée."
         },
         {
           "profileId": 1,
-          "label": "Laisses parfois échapper une remarque impatiente."
+          "label": "Je finis par lâcher une remarque que je n’avais pas prévue."
         }
       ]
     },
     {
       "id": 24,
-      "prompt": "On te propose de modifier ton travail. Tu…",
+      "prompt": "On te propose des modifications sur ton travail. Que fais-tu ?",
       "options": [
         {
           "profileId": 12,
-          "label": "Essaies de montrer que ta version fonctionne déjà."
+          "label": "Je cherche à démontrer que ma version initiale est meilleure."
         },
         {
           "profileId": 2,
-          "label": "Te lances à fond dans la nouvelle idée si elle te plaît."
+          "label": "Je me passionne pour la nouvelle piste si elle m’inspire."
         },
         {
           "profileId": 4,
-          "label": "Dis franchement ce que tu penses des changements."
+          "label": "Je dis sans détour quelles modifications je trouve mauvaises."
         },
         {
           "profileId": 14,
-          "label": "Laisses l’autre prendre en charge les modifications."
+          "label": "Je laisse à l’autre le soin de réaliser les changements convenus."
         }
       ]
     },
     {
       "id": 25,
-      "prompt": "Une conversation avec un proche devient tendue. Tu…",
+      "prompt": "Une discussion avec un proche devient tendue. Que fais-tu ?",
       "options": [
         {
           "profileId": 10,
-          "label": "Écourtes l’échange pour retrouver ton calme."
+          "label": "Je coupe court à l’échange et me referme."
         },
         {
           "profileId": 20,
-          "label": "Cherches à rétablir le lien sans trop attendre."
+          "label": "Je cherche aussitôt à retrouver une proximité avec lui."
         },
         {
           "profileId": 3,
-          "label": "Reprends un point qui mérite encore une explication."
+          "label": "Je soulève d’autres points qui n’ont pas encore été réglés."
         },
         {
           "profileId": 7,
-          "label": "Te laisses gagner par le ton de l’autre."
+          "label": "Je hausse ou baisse le ton selon sa façon de me parler."
         }
       ]
     },
     {
       "id": 26,
-      "prompt": "Un ami te fait une faveur. Qu’est-ce qui t’arrive ?",
+      "prompt": "Un ami te rend régulièrement service. Quel réflexe te ressemble ?",
       "options": [
         {
           "profileId": 18,
-          "label": "Je pense vite au prochain service dont j’aurai besoin."
+          "label": "Je prends vite l’habitude de compter sur lui."
         },
         {
           "profileId": 11,
-          "label": "Je rappelle ce que j’ai déjà fait pour lui."
+          "label": "J’aime lui rappeler tout ce que je fais aussi pour lui."
         },
         {
           "profileId": 5,
-          "label": "Je laisse entendre que j’apprécierais qu’il continue."
+          "label": "Je lui glisse des compliments quand j’aimerais qu’il continue."
         },
         {
           "profileId": 9,
-          "label": "Je me sens obligé de dire oui à sa prochaine demande."
+          "label": "J’accepte ses demandes même quand je voudrais dire non."
         }
       ]
     },
     {
       "id": 27,
-      "prompt": "Un projet démarre bien, puis un doute apparaît. Tu…",
+      "prompt": "Un projet rencontre un obstacle. Que fais-tu ?",
       "options": [
         {
           "profileId": 6,
-          "label": "Vois surtout les problèmes à venir."
+          "label": "Je m’attends à ce que d’autres difficultés surviennent."
         },
         {
           "profileId": 12,
-          "label": "Continues à défendre la piste de départ."
+          "label": "Je persiste avec la méthode de départ."
         },
         {
           "profileId": 2,
-          "label": "Te passionnes pour une nouvelle façon de faire."
+          "label": "Je m’emballe pour une autre piste avant de l’avoir étudiée."
         },
         {
           "profileId": 7,
-          "label": "Adaptes ton enthousiasme à celui du groupe."
+          "label": "Ma motivation suit celle du reste de l’équipe."
         }
       ]
     },
     {
       "id": 28,
-      "prompt": "Un proche t’explique pourquoi il est déçu. Tu…",
+      "prompt": "Un proche t’explique pourquoi il est déçu de toi. Que fais-tu ?",
       "options": [
         {
           "profileId": 19,
-          "label": "Clarifies d’abord tes intentions."
+          "label": "Je précise ce que j’avais voulu faire ou dire."
         },
         {
           "profileId": 1,
-          "label": "Réponds avant qu’il ait terminé."
+          "label": "Je l’interromps parfois pour répondre sur le moment."
         },
         {
           "profileId": 10,
-          "label": "As besoin de t’éloigner de la discussion."
+          "label": "Je préfère m’isoler plutôt que poursuivre la discussion."
         },
         {
           "profileId": 17,
-          "label": "Repenses à une déception que tu as vécue avec lui."
+          "label": "Je repense aux fois où il m’a lui-même déçu."
         }
       ]
     },
     {
       "id": 29,
-      "prompt": "Vous organisez un repas à plusieurs. Tu…",
+      "prompt": "Vous préparez un repas entre amis. Que fais-tu ?",
       "options": [
         {
           "profileId": 16,
-          "label": "Prévois les quantités et les horaires."
+          "label": "Je prévois précisément les quantités et les horaires."
         },
         {
           "profileId": 13,
-          "label": "Répartis les rôles pour que ça fonctionne."
+          "label": "Je décide qui apporte quoi, sans toujours demander son avis."
         },
         {
           "profileId": 8,
-          "label": "Relances ceux qui tardent à confirmer."
+          "label": "Je relance ceux qui tardent à confirmer."
         },
         {
           "profileId": 14,
-          "label": "Laisses les autres régler les détails dont tu étais chargé."
+          "label": "Je compte sur les autres pour gérer les oublis de ma part."
         }
       ]
     },
     {
       "id": 30,
-      "prompt": "Un ami n’est pas d’accord avec ton avis. Tu…",
+      "prompt": "Un ami ne partage pas ton opinion. Que fais-tu ?",
       "options": [
         {
           "profileId": 15,
-          "label": "Ranges vite ses arguments dans le vrai ou le faux."
+          "label": "Je cherche vite à déterminer lequel de nous deux a raison."
         },
         {
           "profileId": 4,
-          "label": "Réponds avec une remarque assez sèche."
+          "label": "Je lui réponds avec une remarque un peu mordante."
         },
         {
           "profileId": 3,
-          "label": "Relances avec des exemples supplémentaires."
+          "label": "Je trouve toujours un argument de plus pour prolonger le débat."
         },
         {
           "profileId": 20,
-          "label": "Cherches à vérifier que ce désaccord ne change rien entre vous."
+          "label": "Je vérifie que notre désaccord ne crée pas de distance entre nous."
         }
       ]
     },
     {
       "id": 31,
-      "prompt": "Tu as promis une aide mais tu es fatigué. Tu…",
+      "prompt": "Tu as promis un coup de main, mais tu es épuisé. Que fais-tu ?",
       "options": [
         {
           "profileId": 9,
-          "label": "Fais quand même le nécessaire sans le dire."
+          "label": "Je tiens parole sans dire que je suis à bout."
         },
         {
           "profileId": 14,
-          "label": "Espères que quelqu’un d’autre prendra le relais."
+          "label": "Je tarde à répondre en espérant que quelqu’un prendra le relais."
         },
         {
           "profileId": 18,
-          "label": "Revois l’engagement selon ce qui t’arrange."
+          "label": "Je réduis mon aide selon ce qui m’arrange."
         },
         {
           "profileId": 16,
-          "label": "Réorganises le reste de ta journée pour tout caser."
+          "label": "Je réorganise chaque tâche pour pouvoir tout faire."
         }
       ]
     },
     {
       "id": 32,
-      "prompt": "Un ami te parle d’un souci qui se répète. Tu…",
+      "prompt": "Un ami se plaint d’un problème récurrent. Que fais-tu ?",
       "options": [
         {
           "profileId": 6,
-          "label": "Lui dis que ça risque de continuer."
+          "label": "Je lui dis qu’il y a peu de chances que ça s’arrange."
         },
         {
           "profileId": 3,
-          "label": "Lui rappelles d’autres incidents qui vont dans son sens."
+          "label": "Je lui rappelle d’autres incidents qui renforcent son mécontentement."
         },
         {
           "profileId": 4,
-          "label": "Lui dis franchement ce qu’il devrait changer."
+          "label": "Je lui dis franchement ce qu’il fait de travers."
         },
         {
           "profileId": 7,
-          "label": "Te laisses gagner par son agacement."
+          "label": "Je finis par partager son agacement."
         }
       ]
     },
     {
       "id": 33,
-      "prompt": "On choisit une activité pour un week-end. Tu…",
+      "prompt": "Tes amis hésitent entre plusieurs activités. Que fais-tu ?",
       "options": [
         {
           "profileId": 2,
-          "label": "T’emballes pour l’idée la plus stimulante."
+          "label": "Je m’emballe pour une idée et veux déjà la réserver."
         },
         {
           "profileId": 8,
-          "label": "Veux qu’on se décide rapidement."
+          "label": "Je préfère choisir n’importe quoi plutôt que discuter encore."
         },
         {
           "profileId": 13,
-          "label": "Fixes une option pour éviter les discussions."
+          "label": "Je fixe une activité pour tout le monde."
         },
         {
           "profileId": 5,
-          "label": "Présentes ton choix sous son meilleur jour."
+          "label": "Je présente mon activité préférée sous son meilleur jour."
         }
       ]
     },
     {
       "id": 34,
-      "prompt": "Un ami remet en cause une décision que tu as prise. Tu…",
+      "prompt": "Un ami remet en cause une décision que tu as prise. Que fais-tu ?",
       "options": [
         {
           "profileId": 19,
-          "label": "Expliques ce qui justifiait ton choix."
+          "label": "Je lui explique pourquoi mon choix était justifié à l’époque."
         },
         {
           "profileId": 12,
-          "label": "Cherches à prouver que ta décision reste la bonne."
+          "label": "Je cherche à maintenir cette décision malgré ses objections."
         },
         {
           "profileId": 15,
-          "label": "Tranches vite sur la valeur de ses arguments."
+          "label": "Je juge vite ses arguments valables ou absurdes."
         },
         {
           "profileId": 1,
-          "label": "Réagis immédiatement, parfois sur un ton sec."
+          "label": "Je réponds immédiatement, quitte à regretter mon ton."
         }
       ]
     },
     {
       "id": 35,
-      "prompt": "Après une soirée où tu t’es senti à part, tu…",
+      "prompt": "Tu te sens à l’écart pendant une soirée. Que fais-tu ?",
       "options": [
         {
           "profileId": 10,
-          "label": "Te fais plus discret pendant quelques jours."
+          "label": "Je parle de moins en moins et me tiens à distance."
         },
         {
           "profileId": 11,
-          "label": "Cherches une occasion de te faire remarquer."
+          "label": "Je cherche une occasion de capter l’attention du groupe."
         },
         {
           "profileId": 20,
-          "label": "Proposes vite de revoir quelqu’un du groupe."
+          "label": "Je sollicite régulièrement la compagnie d’une personne."
         },
         {
           "profileId": 17,
-          "label": "Gardes en tête les moments où tu t’es senti oublié."
+          "label": "Je garde en mémoire ceux qui m’ont laissé de côté."
         }
       ]
     },
     {
       "id": 36,
-      "prompt": "Quelqu’un ne tient pas une promesse. Tu…",
+      "prompt": "Quelqu’un ne tient pas une promesse. Comment réagis-tu ?",
       "options": [
         {
           "profileId": 17,
-          "label": "En tiens compte dans ta confiance future."
+          "label": "Même s’il s’excuse, je garde une certaine rancune."
         },
         {
           "profileId": 9,
-          "label": "Minimises sur le moment mais gardes ça pour toi."
+          "label": "Je n’exprime pas ma déception, mais elle s’accumule."
         },
         {
           "profileId": 1,
-          "label": "Exprimes aussitôt ta contrariété."
+          "label": "Je réagis aussitôt, parfois plus vivement que prévu."
         },
         {
           "profileId": 6,
-          "label": "Te dis qu’il risque de recommencer."
+          "label": "Je me dis qu’il risque de ne pas tenir ses prochaines promesses."
         }
       ]
     },
     {
       "id": 37,
-      "prompt": "Tu dois expliquer une erreur que tu as commise. Tu…",
+      "prompt": "On te demande des explications après une erreur. Que fais-tu ?",
       "options": [
         {
           "profileId": 14,
-          "label": "Mets d’abord en avant les circonstances."
+          "label": "Je parle surtout des circonstances qui ont causé le problème."
         },
         {
           "profileId": 19,
-          "label": "Précises pourquoi ton choix était logique à ce moment-là."
+          "label": "J’explique pourquoi ma décision me semblait raisonnable."
         },
         {
           "profileId": 5,
-          "label": "Présentes les faits sous l’angle qui t’avantage."
+          "label": "Je choisis les détails qui donnent une meilleure image de moi."
         },
         {
           "profileId": 4,
-          "label": "Dis les choses sans trop arrondir les angles."
+          "label": "Je réponds franchement, même si mes mots peuvent vexer."
         }
       ]
     },
     {
       "id": 38,
-      "prompt": "Un ami veut changer une habitude commune. Tu…",
+      "prompt": "Un ami veut changer une de vos habitudes communes. Que fais-tu ?",
       "options": [
         {
           "profileId": 18,
-          "label": "Vérifies d’abord si ça te convient."
+          "label": "Je regarde surtout ce que je risque d’y perdre."
         },
         {
           "profileId": 12,
-          "label": "Défends encore la façon dont vous faisiez avant."
+          "label": "Je défends notre ancienne façon de faire."
         },
         {
           "profileId": 15,
-          "label": "Décides vite si la nouvelle façon est meilleure."
+          "label": "Je me fais vite un avis définitif sur son idée."
         },
         {
           "profileId": 16,
-          "label": "Prévois comment vous organiser autrement."
+          "label": "Je prépare une organisation précise pour anticiper le changement."
         }
       ]
     },
     {
       "id": 39,
-      "prompt": "Une sortie entre amis s’éternise. Tu…",
+      "prompt": "Une sortie entre amis dure plus longtemps que prévu. Que fais-tu ?",
       "options": [
         {
           "profileId": 8,
-          "label": "Proposes de passer à la suite."
+          "label": "Je m’impatiente et demande quand on passe à autre chose."
         },
         {
           "profileId": 13,
-          "label": "Fixes le moment de partir."
+          "label": "Je décide qu’il est temps de partir et invite les autres à suivre."
         },
         {
           "profileId": 11,
-          "label": "Relances un sujet sur lequel tu as des choses à raconter."
+          "label": "Je lance un sujet sur lequel j’ai beaucoup à raconter."
         },
         {
           "profileId": 10,
-          "label": "Te mets un peu en retrait."
+          "label": "Je me mets en retrait et participe de moins en moins."
         }
       ]
     },
     {
       "id": 40,
-      "prompt": "Un groupe prépare un nouveau projet. Tu…",
+      "prompt": "Un groupe lance un nouveau projet. Quelle attitude te ressemble ?",
       "options": [
         {
           "profileId": 2,
-          "label": "Te projettes déjà très loin dans le projet."
+          "label": "Je m’investis à fond avant même de connaître les détails."
         },
         {
           "profileId": 7,
-          "label": "Te laisses entraîner par l’ambiance."
+          "label": "Mon enthousiasme monte et descend avec celui des autres."
         },
         {
           "profileId": 3,
-          "label": "Relances les points de désaccord pour les approfondir."
+          "label": "Je relance les discussions sur les points qui font débat."
         },
         {
           "profileId": 20,
-          "label": "Cherches à être inclus dans toutes les étapes."
+          "label": "Je cherche à rester en contact étroit avec chacun à chaque étape."
         }
       ]
     }
   ],
-  "questionnaireRevision": 3,
+  "questionnaireRevision": 4,
   "legacyProfiles": [
     {
       "id": 1,
