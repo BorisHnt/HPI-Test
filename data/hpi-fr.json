@@ -4,8 +4,8 @@
   "title": "TEST HPI — Hazard Personality Index",
   "disclaimer": "Test humoristique non validé scientifiquement. Il décrit des tendances déclarées et ne constitue ni un diagnostic ni une mesure de dangerosité réelle.",
   "scoring": {
-    "method": "forced-choice-normalized-auto-tiebreak",
-    "instructions": "Chaque profil est proposé exactement huit fois. Une réponse attribue un point à son profil. Le score affiché est le nombre de sélections sur huit. En cas d’égalité, comparer la force des alternatives écartées, puis une clé déterministe issue des réponses et enfin l’identifiant. Aucune question supplémentaire. Classement ludique non validé scientifiquement."
+    "method": "weighted-normalized-auto-tiebreak",
+    "instructions": "Chaque profil est proposé huit fois à 1 point et une fois à 0,5 point. Vingt réponses sans profil valent 0 point. Les cinq choix sont mélangés. Pourcentage = points / 8,5. Les anciens résultats gardent leur dénominateur. Un profil à zéro point ne peut pas être signe ni ascendant. Aucun profil forcé en absence de signal. Ce calcul est ludique et non validé scientifiquement."
   },
   "assets": {
     "status": "Références ISO vérifiées; fichiers SVG et licences individuelles à sélectionner avant intégration. Ne pas utiliser cette catégorie comme URL d'image.",
@@ -22,7 +22,8 @@
       "ascendant": "Ton profil principal prend parfois une tournure brusque : face à un imprévu, tu peux agir ou parler avant d'avoir évalué les conséquences. L'intensité retombe généralement aussi vite qu'elle est montée.",
       "precaution": "Attendre dix secondes avant toute mise à feu.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 2,
@@ -33,7 +34,8 @@
       "ascendant": "Ta tendance dominante s'intensifie facilement lorsque quelque chose te passionne. Tu peux consacrer beaucoup d'énergie à une situation avant de vérifier si elle en mérite autant.",
       "precaution": "Laisser refroidir avant tout engagement.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 3,
@@ -44,7 +46,8 @@
       "ascendant": "Quand un désaccord existe déjà, ton profil principal peut se renforcer en alimentant la discussion. Tu ajoutes parfois des éléments alors que l'apaisement serait plus utile.",
       "precaution": "Ne pas ajouter d'arguments sur une discussion encore chaude.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 4,
@@ -55,7 +58,8 @@
       "ascendant": "Ta tendance principale s'exprime parfois par des phrases plus acides que nécessaire. Même une observation pertinente peut être difficile à entendre si sa formulation érode la confiance.",
       "precaution": "Diluer la franchise dans une dose de tact.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 5,
@@ -66,7 +70,8 @@
       "ascendant": "Ton profil dominant peut emprunter des voies détournées : indices, sous-entendus ou suggestions ciblées plutôt qu'une demande explicite. Dire directement ce que tu souhaites réduit les malentendus.",
       "precaution": "Déclarer clairement les ingrédients et les intentions.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 6,
@@ -77,7 +82,8 @@
       "ascendant": "Ton profil principal s'accompagne parfois d'un commentaire pessimiste qui reste dans l'air. Même lorsque tu ne cherches pas à décourager, tes réserves peuvent freiner l'enthousiasme collectif.",
       "precaution": "Limiter le rayonnement des scénarios négatifs.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 7,
@@ -88,7 +94,8 @@
       "ascendant": "Ton comportement dominant devient plus marqué quand l'ambiance collective le nourrit. Tu reprends parfois le ton ou les inquiétudes des autres avant de te demander ce que tu en penses personnellement.",
       "precaution": "Respecter une quarantaine avant de relayer une humeur.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 8,
@@ -99,7 +106,8 @@
       "ascendant": "Ton signe dominant s'accompagne d'une pression temporelle : tu souhaites que les choses avancent rapidement, même quand les autres préfèrent mûrir leur décision.",
       "precaution": "Mise à la terre avant toute file d'attente.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 9,
@@ -110,7 +118,8 @@
       "ascendant": "Tu peux garder pour toi ce que ton signe dominant te fait ressentir. Les tensions restent discrètes, mais leur accumulation complique les échanges lorsqu'elles finissent par être exprimées.",
       "precaution": "Purge régulière des petites frustrations.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 10,
@@ -121,7 +130,8 @@
       "ascendant": "Ton profil dominant peut se mettre en veille froide lorsque la discussion devient trop intense. Tu gagnes à signaler ton besoin de distance plutôt que de laisser l'autre le deviner.",
       "precaution": "Annoncer les périodes de refroidissement.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 11,
@@ -132,7 +142,8 @@
       "ascendant": "Ton signe principal peut s'exprimer plus fortement lorsque tu te sens peu remarqué. Un besoin de reconnaissance accompagne alors tes réactions, même si ce n'est pas leur moteur initial.",
       "precaution": "Partager le champ d'attraction.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 12,
@@ -143,7 +154,8 @@
       "ascendant": "Ta tendance dominante peut se focaliser sur un détail, une idée ou un objectif et devenir difficile à détourner. Une pause pour envisager d'autres pistes aide à éviter l'effet tunnel.",
       "precaution": "Réexaminer régulièrement le point de focalisation.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 13,
@@ -154,7 +166,8 @@
       "ascendant": "Ton profil principal peut se traduire par une tendance à imposer la marche à suivre. Tu risques alors de confondre avancer rapidement et décider pour tout le monde.",
       "precaution": "Ne pas dépasser la charge décisionnelle autorisée.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 14,
@@ -165,7 +178,8 @@
       "ascendant": "Quand ton profil dominant entraîne une conséquence désagréable, tu peux être tenté de déplacer le sujet plutôt que de l'affronter. Une reconnaissance simple de ta part évite que le problème persiste.",
       "precaution": "Assumer son appui avant de changer de direction.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 15,
@@ -176,7 +190,8 @@
       "ascendant": "Ton signe dominant s'accompagne parfois de conclusions abruptes. Tu peux juger une situation sur un seul élément, alors que le contexte pourrait modifier ton appréciation.",
       "precaution": "Ajouter une marge de nuance avant toute découpe.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 16,
@@ -187,7 +202,8 @@
       "ascendant": "Ton profil principal s'accompagne d'une tendance à scénariser la suite. Tu cherches à rendre les événements prévisibles, parfois au détriment de la spontanéité.",
       "precaution": "Prévoir une zone réservée aux imprévus.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 17,
@@ -198,7 +214,8 @@
       "ascendant": "Ton signe dominant laisse parfois une trace durable après l'événement. Même si la situation est réglée, tu peux continuer à l'interpréter à travers une ancienne déception.",
       "precaution": "Vérifier la date de péremption des griefs.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 18,
@@ -209,7 +226,8 @@
       "ascendant": "Ton signe principal peut occuper plus d'espace que tu ne le souhaites. Tu risques de privilégier tes propres contraintes sans mesurer l'effort demandé aux autres.",
       "precaution": "Compenser toute émission par une dose de réciprocité.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 19,
@@ -220,7 +238,8 @@
       "ascendant": "Ton profil principal se hérisse lorsqu'il est remis en question. Tu peux te justifier avant même d'avoir entendu la remarque jusqu'au bout.",
       "precaution": "Vérifier l'intention avant de relever les barbelés.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     },
     {
       "id": 20,
@@ -231,7 +250,8 @@
       "ascendant": "Ton signe dominant peut s'accompagner d'un besoin de présence ou de réponses rapides de la part de tes proches. Laisser de l'espace évite que ton attention devienne une pression.",
       "precaution": "Assurer une ventilation relationnelle suffisante.",
       "source": "https://commons.wikimedia.org/wiki/Category:ISO_7010_warning_signs",
-      "appearances": 8
+      "appearances": 9,
+      "maxPoints": 8.5
     }
   ],
   "questions": [
@@ -241,19 +261,28 @@
       "options": [
         {
           "profileId": 11,
-          "label": "J’attends qu’il reconnaisse mes efforts."
+          "label": "J’attends qu’il reconnaisse mes efforts.",
+          "weight": 1
         },
         {
           "profileId": 9,
-          "label": "Je ne dis rien, mais ça m’agace."
+          "label": "Je ne dis rien, mais ça m’agace.",
+          "weight": 1
         },
         {
           "profileId": 17,
-          "label": "Je m’en souviendrai la prochaine fois."
+          "label": "Je m’en souviendrai la prochaine fois.",
+          "weight": 1
         },
         {
           "profileId": 5,
-          "label": "Je lui fais comprendre que ça m’a pris du temps."
+          "label": "Je lui fais comprendre que ça m’a pris du temps.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Ce n’est pas grave, ça arrive.",
+          "weight": 0
         }
       ]
     },
@@ -263,19 +292,28 @@
       "options": [
         {
           "profileId": 13,
-          "label": "Je choisis le lieu pour tout le monde."
+          "label": "Je choisis le lieu pour tout le monde.",
+          "weight": 1
         },
         {
           "profileId": 16,
-          "label": "Je vérifie les horaires, le trajet et le budget."
+          "label": "Je vérifie les horaires, le trajet et le budget.",
+          "weight": 1
         },
         {
           "profileId": 8,
-          "label": "Je veux qu’on se décide, peu importe où."
+          "label": "Je veux qu’on se décide, peu importe où.",
+          "weight": 1
         },
         {
           "profileId": 18,
-          "label": "Je propose surtout des endroits qui me plaisent."
+          "label": "Je propose surtout des endroits qui me plaisent.",
+          "weight": 1
+        },
+        {
+          "profileId": 12,
+          "label": "Je reviens toujours à mon endroit préféré.",
+          "weight": 0.5
         }
       ]
     },
@@ -285,19 +323,28 @@
       "options": [
         {
           "profileId": 19,
-          "label": "Je lui explique ce qu’il n’a pas compris."
+          "label": "Je lui explique ce qu’il n’a pas compris.",
+          "weight": 1
         },
         {
           "profileId": 4,
-          "label": "Je lui réponds avec une petite pique."
+          "label": "Je lui réponds avec une petite pique.",
+          "weight": 1
         },
         {
           "profileId": 12,
-          "label": "Je continue à travailler sur mon idée pour lui donner tort."
+          "label": "Je continue à travailler sur mon idée pour lui donner tort.",
+          "weight": 1
         },
         {
           "profileId": 15,
-          "label": "Pour moi, soit il a raison, soit il a tort."
+          "label": "Pour moi, soit il a raison, soit il a tort.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "J’écoute son avis et je vois ce que je peux en tirer.",
+          "weight": 0
         }
       ]
     },
@@ -307,19 +354,28 @@
       "options": [
         {
           "profileId": 20,
-          "label": "Je vérifie souvent s’il m’a répondu."
+          "label": "Je vérifie souvent s’il m’a répondu.",
+          "weight": 1
         },
         {
           "profileId": 10,
-          "label": "Je prends mes distances à mon tour."
+          "label": "Je prends mes distances à mon tour.",
+          "weight": 1
         },
         {
           "profileId": 6,
-          "label": "Je me dis qu’on finira par moins se parler."
+          "label": "Je me dis qu’on finira par moins se parler.",
+          "weight": 1
         },
         {
           "profileId": 1,
-          "label": "J’envoie un message sur le coup de l’agacement."
+          "label": "J’envoie un message sur le coup de l’agacement.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Il répondra quand il pourra.",
+          "weight": 0
         }
       ]
     },
@@ -329,19 +385,28 @@
       "options": [
         {
           "profileId": 2,
-          "label": "Je propose plein d’idées d’un coup."
+          "label": "Je propose plein d’idées d’un coup.",
+          "weight": 1
         },
         {
           "profileId": 3,
-          "label": "Je relance le débat quand les avis divergent."
+          "label": "Je relance le débat quand les avis divergent.",
+          "weight": 1
         },
         {
           "profileId": 7,
-          "label": "Je me laisse emporter par l’enthousiasme des autres."
+          "label": "Je me laisse emporter par l’enthousiasme des autres.",
+          "weight": 1
         },
         {
           "profileId": 14,
-          "label": "Je compte sur les autres pour s’occuper de ma part."
+          "label": "Je compte sur les autres pour s’occuper de ma part.",
+          "weight": 1
+        },
+        {
+          "profileId": 16,
+          "label": "Je vérifie que tout est prévu avant la soirée.",
+          "weight": 0.5
         }
       ]
     },
@@ -351,19 +416,28 @@
       "options": [
         {
           "profileId": 9,
-          "label": "J’accepte sans oser dire que ça ne m’arrange pas."
+          "label": "J’accepte sans oser dire que ça ne m’arrange pas.",
+          "weight": 1
         },
         {
           "profileId": 16,
-          "label": "Je refais tout mon planning."
+          "label": "Je refais tout mon planning.",
+          "weight": 1
         },
         {
           "profileId": 5,
-          "label": "Je suggère mine de rien de demander à quelqu’un d’autre."
+          "label": "Je suggère mine de rien de demander à quelqu’un d’autre.",
+          "weight": 1
         },
         {
           "profileId": 8,
-          "label": "Je cherche à en finir au plus vite."
+          "label": "Je cherche à en finir au plus vite.",
+          "weight": 1
+        },
+        {
+          "profileId": 18,
+          "label": "J’accepte si j’y trouve aussi mon compte.",
+          "weight": 0.5
         }
       ]
     },
@@ -373,19 +447,28 @@
       "options": [
         {
           "profileId": 11,
-          "label": "Je raconte un truc similaire qui m’est arrivé."
+          "label": "Je raconte un truc similaire qui m’est arrivé.",
+          "weight": 1
         },
         {
           "profileId": 6,
-          "label": "Je lui parle de ce qui pourrait mal se passer ensuite."
+          "label": "Je lui parle de ce qui pourrait mal se passer ensuite.",
+          "weight": 1
         },
         {
           "profileId": 7,
-          "label": "Je m’enthousiasme si tout le monde autour de moi est content."
+          "label": "Je m’enthousiasme si tout le monde autour de moi est content.",
+          "weight": 1
         },
         {
           "profileId": 4,
-          "label": "Je lui fais une remarque qui gâche un peu sa joie."
+          "label": "Je lui fais une remarque qui gâche un peu sa joie.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Je suis content pour lui, tout simplement.",
+          "weight": 0
         }
       ]
     },
@@ -395,19 +478,28 @@
       "options": [
         {
           "profileId": 12,
-          "label": "Je continue à défendre l’idée de départ."
+          "label": "Je continue à défendre l’idée de départ.",
+          "weight": 1
         },
         {
           "profileId": 13,
-          "label": "Je cherche à reprendre les commandes."
+          "label": "Je cherche à reprendre les commandes.",
+          "weight": 1
         },
         {
           "profileId": 2,
-          "label": "Je m’emballe pour la nouvelle idée si elle me plaît."
+          "label": "Je m’emballe pour la nouvelle idée si elle me plaît.",
+          "weight": 1
         },
         {
           "profileId": 15,
-          "label": "Je décide vite si c’est une bonne ou une mauvaise idée."
+          "label": "Je décide vite si c’est une bonne ou une mauvaise idée.",
+          "weight": 1
+        },
+        {
+          "profileId": 14,
+          "label": "Je laisse les autres s’occuper de la suite.",
+          "weight": 0.5
         }
       ]
     },
@@ -417,19 +509,28 @@
       "options": [
         {
           "profileId": 14,
-          "label": "J’explique que j’ai eu un empêchement."
+          "label": "J’explique que j’ai eu un empêchement.",
+          "weight": 1
         },
         {
           "profileId": 19,
-          "label": "Je fais remarquer qu’on aurait pu me le rappeler."
+          "label": "Je fais remarquer qu’on aurait pu me le rappeler.",
+          "weight": 1
         },
         {
           "profileId": 1,
-          "label": "Je réponds sèchement si on insiste."
+          "label": "Je réponds sèchement si on insiste.",
+          "weight": 1
         },
         {
           "profileId": 18,
-          "label": "Je propose un autre moment qui m’arrange."
+          "label": "Je propose un autre moment qui m’arrange.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Je m’excuse et je propose de me rattraper.",
+          "weight": 0
         }
       ]
     },
@@ -439,19 +540,28 @@
       "options": [
         {
           "profileId": 20,
-          "label": "Je cherche à revoir l’autre au plus vite."
+          "label": "Je cherche à revoir l’autre au plus vite.",
+          "weight": 1
         },
         {
           "profileId": 10,
-          "label": "Je garde mes distances quelque temps."
+          "label": "Je garde mes distances quelque temps.",
+          "weight": 1
         },
         {
           "profileId": 17,
-          "label": "Je lui en veux encore un peu, malgré les excuses."
+          "label": "Je lui en veux encore un peu, malgré les excuses.",
+          "weight": 1
         },
         {
           "profileId": 3,
-          "label": "Je remets un point du désaccord sur la table."
+          "label": "Je remets un point du désaccord sur la table.",
+          "weight": 1
+        },
+        {
+          "profileId": 19,
+          "label": "Je reste convaincu que j’avais mes raisons.",
+          "weight": 0.5
         }
       ]
     },
@@ -461,19 +571,28 @@
       "options": [
         {
           "profileId": 1,
-          "label": "Je réplique du tac au tac."
+          "label": "Je réplique du tac au tac.",
+          "weight": 1
         },
         {
           "profileId": 19,
-          "label": "J’explique pourquoi la remarque est injustifiée."
+          "label": "J’explique pourquoi la remarque est injustifiée.",
+          "weight": 1
         },
         {
           "profileId": 4,
-          "label": "Je réponds avec un peu de sarcasme."
+          "label": "Je réponds avec un peu de sarcasme.",
+          "weight": 1
         },
         {
           "profileId": 10,
-          "label": "Je deviens moins bavard."
+          "label": "Je deviens moins bavard.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Je l’écoute sans en faire toute une histoire.",
+          "weight": 0
         }
       ]
     },
@@ -483,19 +602,28 @@
       "options": [
         {
           "profileId": 5,
-          "label": "J’essaie de lui donner envie de venir."
+          "label": "J’essaie de lui donner envie de venir.",
+          "weight": 1
         },
         {
           "profileId": 20,
-          "label": "Je lui demande quand on pourra se voir."
+          "label": "Je lui demande quand on pourra se voir.",
+          "weight": 1
         },
         {
           "profileId": 18,
-          "label": "Je propose surtout des dates qui m’arrangent."
+          "label": "Je propose surtout des dates qui m’arrangent.",
+          "weight": 1
         },
         {
           "profileId": 9,
-          "label": "Je dis que ce n’est pas grave, même si je suis déçu."
+          "label": "Je dis que ce n’est pas grave, même si je suis déçu.",
+          "weight": 1
+        },
+        {
+          "profileId": 8,
+          "label": "Je lui demande de me dire oui ou non.",
+          "weight": 0.5
         }
       ]
     },
@@ -505,19 +633,28 @@
       "options": [
         {
           "profileId": 2,
-          "label": "Je me vois déjà faire plein de choses sur place."
+          "label": "Je me vois déjà faire plein de choses sur place.",
+          "weight": 1
         },
         {
           "profileId": 6,
-          "label": "Je pense aux galères qui pourraient gâcher le séjour."
+          "label": "Je pense aux galères qui pourraient gâcher le séjour.",
+          "weight": 1
         },
         {
           "profileId": 16,
-          "label": "Je vérifie les prix et les trajets."
+          "label": "Je vérifie les prix et les trajets.",
+          "weight": 1
         },
         {
           "profileId": 7,
-          "label": "Mon envie de partir dépend de leur enthousiasme."
+          "label": "Mon envie de partir dépend de leur enthousiasme.",
+          "weight": 1
+        },
+        {
+          "profileId": 13,
+          "label": "Je prends naturellement la direction du voyage.",
+          "weight": 0.5
         }
       ]
     },
@@ -527,19 +664,28 @@
       "options": [
         {
           "profileId": 8,
-          "label": "Le temps qu’on perd avant de commencer."
+          "label": "Le temps qu’on perd avant de commencer.",
+          "weight": 1
         },
         {
           "profileId": 12,
-          "label": "Qu’on abandonne une idée que je trouve bonne."
+          "label": "Qu’on abandonne une idée que je trouve bonne.",
+          "weight": 1
         },
         {
           "profileId": 13,
-          "label": "Que personne ne prenne les commandes."
+          "label": "Que personne ne prenne les commandes.",
+          "weight": 1
         },
         {
           "profileId": 15,
-          "label": "Qu’on refuse de donner un avis clair."
+          "label": "Qu’on refuse de donner un avis clair.",
+          "weight": 1
+        },
+        {
+          "profileId": 6,
+          "label": "Les projets dont je ne vois pas l’issue.",
+          "weight": 0.5
         }
       ]
     },
@@ -549,19 +695,28 @@
       "options": [
         {
           "profileId": 3,
-          "label": "J’ajoute des détails qui relancent le débat."
+          "label": "J’ajoute des détails qui relancent le débat.",
+          "weight": 1
         },
         {
           "profileId": 17,
-          "label": "Je repense aux paroles qui m’ont blessé."
+          "label": "Je repense aux paroles qui m’ont blessé.",
+          "weight": 1
         },
         {
           "profileId": 11,
-          "label": "Je rappelle ce que j’ai fait pour arranger les choses."
+          "label": "Je rappelle ce que j’ai fait pour arranger les choses.",
+          "weight": 1
         },
         {
           "profileId": 14,
-          "label": "J’évite de parler de mes propres erreurs."
+          "label": "J’évite de parler de mes propres erreurs.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Je préfère en rester là si tout a été réglé.",
+          "weight": 0
         }
       ]
     },
@@ -571,19 +726,28 @@
       "options": [
         {
           "profileId": 4,
-          "label": "Je lui dis ce qui ne va pas, sans prendre de pincettes."
+          "label": "Je lui dis ce qui ne va pas, sans prendre de pincettes.",
+          "weight": 1
         },
         {
           "profileId": 5,
-          "label": "Je lui pose des questions pour qu’il change d’avis."
+          "label": "Je lui pose des questions pour qu’il change d’avis.",
+          "weight": 1
         },
         {
           "profileId": 15,
-          "label": "Je lui dis que l’idée est bonne ou mauvaise, point."
+          "label": "Je lui dis que l’idée est bonne ou mauvaise, point.",
+          "weight": 1
         },
         {
           "profileId": 6,
-          "label": "Je lui parle de tout ce qui pourrait mal tourner."
+          "label": "Je lui parle de tout ce qui pourrait mal tourner.",
+          "weight": 1
+        },
+        {
+          "profileId": 9,
+          "label": "Je garde mon avis pour moi, même si ça me travaille.",
+          "weight": 0.5
         }
       ]
     },
@@ -593,19 +757,28 @@
       "options": [
         {
           "profileId": 1,
-          "label": "Je lâche une remarque sans réfléchir."
+          "label": "Je lâche une remarque sans réfléchir.",
+          "weight": 1
         },
         {
           "profileId": 8,
-          "label": "Je peste contre le temps perdu."
+          "label": "Je peste contre le temps perdu.",
+          "weight": 1
         },
         {
           "profileId": 16,
-          "label": "Je refais le programme de ma journée."
+          "label": "Je refais le programme de ma journée.",
+          "weight": 1
         },
         {
           "profileId": 9,
-          "label": "Je dis que ça ne me gêne pas, mais je le pense quand même."
+          "label": "Je dis que ça ne me gêne pas, mais je le pense quand même.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Je m’adapte, ce n’est pas grave.",
+          "weight": 0
         }
       ]
     },
@@ -615,19 +788,28 @@
       "options": [
         {
           "profileId": 11,
-          "label": "J’espère qu’on a remarqué mon travail."
+          "label": "J’espère qu’on a remarqué mon travail.",
+          "weight": 1
         },
         {
           "profileId": 18,
-          "label": "Je pense surtout à ce que j’y gagne."
+          "label": "Je pense surtout à ce que j’y gagne.",
+          "weight": 1
         },
         {
           "profileId": 13,
-          "label": "Je me vois déjà diriger le prochain projet."
+          "label": "Je me vois déjà diriger le prochain projet.",
+          "weight": 1
         },
         {
           "profileId": 2,
-          "label": "J’ai envie de me lancer tout de suite dans un projet plus grand."
+          "label": "J’ai envie de me lancer tout de suite dans un projet plus grand.",
+          "weight": 1
+        },
+        {
+          "profileId": 7,
+          "label": "Je suis surtout content quand les autres le sont.",
+          "weight": 0.5
         }
       ]
     },
@@ -637,19 +819,28 @@
       "options": [
         {
           "profileId": 19,
-          "label": "Je lui explique que ce n’était pas mon intention."
+          "label": "Je lui explique que ce n’était pas mon intention.",
+          "weight": 1
         },
         {
           "profileId": 20,
-          "label": "Je lui demande si ça change quelque chose entre nous."
+          "label": "Je lui demande si ça change quelque chose entre nous.",
+          "weight": 1
         },
         {
           "profileId": 10,
-          "label": "Je coupe court à la discussion."
+          "label": "Je coupe court à la discussion.",
+          "weight": 1
         },
         {
           "profileId": 14,
-          "label": "J’attends que ce soit lui qui revienne vers moi."
+          "label": "J’attends que ce soit lui qui revienne vers moi.",
+          "weight": 1
+        },
+        {
+          "profileId": 17,
+          "label": "Je repense aux fois où il m’a fait la même chose.",
+          "weight": 0.5
         }
       ]
     },
@@ -659,19 +850,28 @@
       "options": [
         {
           "profileId": 7,
-          "label": "Je finis par m’énerver avec celui qui me raconte sa version."
+          "label": "Je finis par m’énerver avec celui qui me raconte sa version.",
+          "weight": 1
         },
         {
           "profileId": 3,
-          "label": "Je rajoute des arguments qui relancent leur dispute."
+          "label": "Je rajoute des arguments qui relancent leur dispute.",
+          "weight": 1
         },
         {
           "profileId": 12,
-          "label": "Je reste sur ma première impression de la situation."
+          "label": "Je reste sur ma première impression de la situation.",
+          "weight": 1
         },
         {
           "profileId": 17,
-          "label": "Je repense aux fois où l’un d’eux m’a déçu."
+          "label": "Je repense aux fois où l’un d’eux m’a déçu.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Je les laisse régler ça entre eux.",
+          "weight": 0
         }
       ]
     },
@@ -681,19 +881,28 @@
       "options": [
         {
           "profileId": 11,
-          "label": "Je me demande si je leur ai manqué."
+          "label": "Je me demande si je leur ai manqué.",
+          "weight": 1
         },
         {
           "profileId": 17,
-          "label": "Je m’en souviendrai quand j’organiserai une sortie."
+          "label": "Je m’en souviendrai quand j’organiserai une sortie.",
+          "weight": 1
         },
         {
           "profileId": 5,
-          "label": "Je leur en touche deux mots, l’air de rien."
+          "label": "Je leur en touche deux mots, l’air de rien.",
+          "weight": 1
         },
         {
           "profileId": 6,
-          "label": "Je me dis que le groupe finira par m’oublier."
+          "label": "Je me dis que le groupe finira par m’oublier.",
+          "weight": 1
+        },
+        {
+          "profileId": 10,
+          "label": "Je m’en fous totalement.",
+          "weight": 0.5
         }
       ]
     },
@@ -703,19 +912,28 @@
       "options": [
         {
           "profileId": 18,
-          "label": "Je calcule ce qui m’arrange le plus."
+          "label": "Je calcule ce qui m’arrange le plus.",
+          "weight": 1
         },
         {
           "profileId": 9,
-          "label": "J’accepte ce qu’on me demande, même si ça me gêne."
+          "label": "J’accepte ce qu’on me demande, même si ça me gêne.",
+          "weight": 1
         },
         {
           "profileId": 15,
-          "label": "Pour moi, une seule façon de partager est juste."
+          "label": "Pour moi, une seule façon de partager est juste.",
+          "weight": 1
         },
         {
           "profileId": 19,
-          "label": "Je me justifie si quelqu’un critique ma façon de payer."
+          "label": "Je me justifie si quelqu’un critique ma façon de payer.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "On trouve ensemble une solution qui convient à chacun.",
+          "weight": 0
         }
       ]
     },
@@ -725,19 +943,28 @@
       "options": [
         {
           "profileId": 8,
-          "label": "Je lui demande de se décider, peu importe son choix."
+          "label": "Je lui demande de se décider, peu importe son choix.",
+          "weight": 1
         },
         {
           "profileId": 13,
-          "label": "Je choisis à sa place."
+          "label": "Je choisis à sa place.",
+          "weight": 1
         },
         {
           "profileId": 16,
-          "label": "Je lui propose de comparer les avantages et les inconvénients."
+          "label": "Je lui propose de comparer les avantages et les inconvénients.",
+          "weight": 1
         },
         {
           "profileId": 1,
-          "label": "Je finis par lâcher une remarque."
+          "label": "Je finis par lâcher une remarque.",
+          "weight": 1
+        },
+        {
+          "profileId": 15,
+          "label": "Pour moi, l’un des deux choix est évident.",
+          "weight": 0.5
         }
       ]
     },
@@ -747,19 +974,28 @@
       "options": [
         {
           "profileId": 12,
-          "label": "Je cherche à garder ma version initiale."
+          "label": "Je cherche à garder ma version initiale.",
+          "weight": 1
         },
         {
           "profileId": 2,
-          "label": "Je me lance à fond dans la nouvelle idée si elle me plaît."
+          "label": "Je me lance à fond dans la nouvelle idée si elle me plaît.",
+          "weight": 1
         },
         {
           "profileId": 4,
-          "label": "Je dis franchement ce que je trouve mauvais."
+          "label": "Je dis franchement ce que je trouve mauvais.",
+          "weight": 1
         },
         {
           "profileId": 14,
-          "label": "Je laisse l’autre faire les modifications à ma place."
+          "label": "Je laisse l’autre faire les modifications à ma place.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Je regarde ce que les changements peuvent apporter.",
+          "weight": 0
         }
       ]
     },
@@ -769,19 +1005,28 @@
       "options": [
         {
           "profileId": 10,
-          "label": "Je me renferme."
+          "label": "Je me renferme.",
+          "weight": 1
         },
         {
           "profileId": 20,
-          "label": "Je cherche à retrouver notre complicité au plus vite."
+          "label": "Je cherche à retrouver notre complicité au plus vite.",
+          "weight": 1
         },
         {
           "profileId": 3,
-          "label": "Je remets d’autres désaccords sur la table."
+          "label": "Je remets d’autres désaccords sur la table.",
+          "weight": 1
         },
         {
           "profileId": 7,
-          "label": "Je finis par prendre le même ton que lui."
+          "label": "Je finis par prendre le même ton que lui.",
+          "weight": 1
+        },
+        {
+          "profileId": 4,
+          "label": "Je dis ce que j’ai sur le cœur, quitte à vexer.",
+          "weight": 0.5
         }
       ]
     },
@@ -791,19 +1036,28 @@
       "options": [
         {
           "profileId": 18,
-          "label": "Je prends vite l’habitude de compter sur lui."
+          "label": "Je prends vite l’habitude de compter sur lui.",
+          "weight": 1
         },
         {
           "profileId": 11,
-          "label": "J’aime lui rappeler les services que je lui ai rendus."
+          "label": "J’aime lui rappeler les services que je lui ai rendus.",
+          "weight": 1
         },
         {
           "profileId": 5,
-          "label": "Je le flatte un peu quand j’ai besoin de lui."
+          "label": "Je le flatte un peu quand j’ai besoin de lui.",
+          "weight": 1
         },
         {
           "profileId": 9,
-          "label": "Je lui dis oui même quand je voudrais dire non."
+          "label": "Je lui dis oui même quand je voudrais dire non.",
+          "weight": 1
+        },
+        {
+          "profileId": 20,
+          "label": "J’aime savoir que je peux toujours l’appeler.",
+          "weight": 0.5
         }
       ]
     },
@@ -813,19 +1067,28 @@
       "options": [
         {
           "profileId": 6,
-          "label": "Je m’attends à d’autres galères."
+          "label": "Je m’attends à d’autres galères.",
+          "weight": 1
         },
         {
           "profileId": 12,
-          "label": "Je persiste avec la méthode de départ."
+          "label": "Je persiste avec la méthode de départ.",
+          "weight": 1
         },
         {
           "profileId": 2,
-          "label": "Je m’emballe pour une autre piste sans trop réfléchir."
+          "label": "Je m’emballe pour une autre piste sans trop réfléchir.",
+          "weight": 1
         },
         {
           "profileId": 7,
-          "label": "Ma motivation dépend de celle des autres."
+          "label": "Ma motivation dépend de celle des autres.",
+          "weight": 1
+        },
+        {
+          "profileId": 1,
+          "label": "Sur le coup, j’ai envie de tout laisser tomber.",
+          "weight": 0.5
         }
       ]
     },
@@ -835,19 +1098,28 @@
       "options": [
         {
           "profileId": 19,
-          "label": "J’explique d’abord ce que je voulais dire ou faire."
+          "label": "J’explique d’abord ce que je voulais dire ou faire.",
+          "weight": 1
         },
         {
           "profileId": 1,
-          "label": "Je l’interromps parfois pour lui répondre."
+          "label": "Je l’interromps parfois pour lui répondre.",
+          "weight": 1
         },
         {
           "profileId": 10,
-          "label": "Je préfère m’isoler."
+          "label": "Je préfère m’isoler.",
+          "weight": 1
         },
         {
           "profileId": 17,
-          "label": "Je repense aux fois où il m’a lui-même déçu."
+          "label": "Je repense aux fois où il m’a lui-même déçu.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Je l’écoute et j’essaie de comprendre.",
+          "weight": 0
         }
       ]
     },
@@ -857,19 +1129,28 @@
       "options": [
         {
           "profileId": 16,
-          "label": "Je calcule les quantités et je prévois les horaires."
+          "label": "Je calcule les quantités et je prévois les horaires.",
+          "weight": 1
         },
         {
           "profileId": 13,
-          "label": "Je décide qui apporte quoi."
+          "label": "Je décide qui apporte quoi.",
+          "weight": 1
         },
         {
           "profileId": 8,
-          "label": "Je relance ceux qui tardent à confirmer."
+          "label": "Je relance ceux qui tardent à confirmer.",
+          "weight": 1
         },
         {
           "profileId": 14,
-          "label": "Je laisse les autres rattraper mes oublis."
+          "label": "Je laisse les autres rattraper mes oublis.",
+          "weight": 1
+        },
+        {
+          "profileId": 5,
+          "label": "Je glisse quelques idées pour orienter le choix du menu.",
+          "weight": 0.5
         }
       ]
     },
@@ -879,19 +1160,28 @@
       "options": [
         {
           "profileId": 15,
-          "label": "Je cherche vite à savoir lequel de nous a raison."
+          "label": "Je cherche vite à savoir lequel de nous a raison.",
+          "weight": 1
         },
         {
           "profileId": 4,
-          "label": "Je réponds avec une remarque un peu piquante."
+          "label": "Je réponds avec une remarque un peu piquante.",
+          "weight": 1
         },
         {
           "profileId": 3,
-          "label": "Je trouve toujours un argument de plus."
+          "label": "Je trouve toujours un argument de plus.",
+          "weight": 1
         },
         {
           "profileId": 20,
-          "label": "Je m’assure que ça ne change rien entre nous."
+          "label": "Je m’assure que ça ne change rien entre nous.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Chacun son avis.",
+          "weight": 0
         }
       ]
     },
@@ -901,19 +1191,28 @@
       "options": [
         {
           "profileId": 9,
-          "label": "Je tiens parole sans dire que je suis à bout."
+          "label": "Je tiens parole sans dire que je suis à bout.",
+          "weight": 1
         },
         {
           "profileId": 14,
-          "label": "Je tarde à répondre en espérant que quelqu’un prenne le relais."
+          "label": "Je tarde à répondre en espérant que quelqu’un prenne le relais.",
+          "weight": 1
         },
         {
           "profileId": 18,
-          "label": "Je fais seulement ce qui m’arrange."
+          "label": "Je fais seulement ce qui m’arrange.",
+          "weight": 1
         },
         {
           "profileId": 16,
-          "label": "Je refais mon planning pour tout faire rentrer."
+          "label": "Je refais mon planning pour tout faire rentrer.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Je lui explique que je suis fatigué et on s’arrange.",
+          "weight": 0
         }
       ]
     },
@@ -923,19 +1222,28 @@
       "options": [
         {
           "profileId": 6,
-          "label": "Je lui dis que ça risque de durer."
+          "label": "Je lui dis que ça risque de durer.",
+          "weight": 1
         },
         {
           "profileId": 3,
-          "label": "Je lui rappelle d’autres raisons de s’en plaindre."
+          "label": "Je lui rappelle d’autres raisons de s’en plaindre.",
+          "weight": 1
         },
         {
           "profileId": 4,
-          "label": "Je lui dis franchement ce qu’il fait de travers."
+          "label": "Je lui dis franchement ce qu’il fait de travers.",
+          "weight": 1
         },
         {
           "profileId": 7,
-          "label": "Je finis par m’agacer avec lui."
+          "label": "Je finis par m’agacer avec lui.",
+          "weight": 1
+        },
+        {
+          "profileId": 11,
+          "label": "Je raconte comment j’ai réglé un problème similaire.",
+          "weight": 0.5
         }
       ]
     },
@@ -945,19 +1253,28 @@
       "options": [
         {
           "profileId": 2,
-          "label": "Je m’emballe pour une idée et veux déjà réserver."
+          "label": "Je m’emballe pour une idée et veux déjà réserver.",
+          "weight": 1
         },
         {
           "profileId": 8,
-          "label": "Je veux juste qu’on arrête d’hésiter."
+          "label": "Je veux juste qu’on arrête d’hésiter.",
+          "weight": 1
         },
         {
           "profileId": 13,
-          "label": "Je tranche pour tout le monde."
+          "label": "Je tranche pour tout le monde.",
+          "weight": 1
         },
         {
           "profileId": 5,
-          "label": "Je vante discrètement mon activité préférée."
+          "label": "Je vante discrètement mon activité préférée.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Toutes les options me vont.",
+          "weight": 0
         }
       ]
     },
@@ -967,19 +1284,28 @@
       "options": [
         {
           "profileId": 19,
-          "label": "Je lui explique pourquoi j’ai fait ce choix."
+          "label": "Je lui explique pourquoi j’ai fait ce choix.",
+          "weight": 1
         },
         {
           "profileId": 12,
-          "label": "Je maintiens ma décision malgré ses objections."
+          "label": "Je maintiens ma décision malgré ses objections.",
+          "weight": 1
         },
         {
           "profileId": 15,
-          "label": "Je juge vite ses arguments bons ou mauvais."
+          "label": "Je juge vite ses arguments bons ou mauvais.",
+          "weight": 1
         },
         {
           "profileId": 1,
-          "label": "Je réponds sur le coup, quitte à regretter mon ton."
+          "label": "Je réponds sur le coup, quitte à regretter mon ton.",
+          "weight": 1
+        },
+        {
+          "profileId": 2,
+          "label": "Je m’emballe pour une autre solution s’il en propose une.",
+          "weight": 0.5
         }
       ]
     },
@@ -989,19 +1315,28 @@
       "options": [
         {
           "profileId": 10,
-          "label": "Je parle de moins en moins."
+          "label": "Je parle de moins en moins.",
+          "weight": 1
         },
         {
           "profileId": 11,
-          "label": "Je cherche à attirer l’attention du groupe."
+          "label": "Je cherche à attirer l’attention du groupe.",
+          "weight": 1
         },
         {
           "profileId": 20,
-          "label": "Je reste près de la même personne toute la soirée."
+          "label": "Je reste près de la même personne toute la soirée.",
+          "weight": 1
         },
         {
           "profileId": 17,
-          "label": "Je retiens qui m’a laissé de côté."
+          "label": "Je retiens qui m’a laissé de côté.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Je profite de la soirée à ma façon.",
+          "weight": 0
         }
       ]
     },
@@ -1011,19 +1346,28 @@
       "options": [
         {
           "profileId": 17,
-          "label": "Je lui en veux même après ses excuses."
+          "label": "Je lui en veux même après ses excuses.",
+          "weight": 1
         },
         {
           "profileId": 9,
-          "label": "Je garde ma déception pour moi."
+          "label": "Je garde ma déception pour moi.",
+          "weight": 1
         },
         {
           "profileId": 1,
-          "label": "Je réagis aussitôt, parfois un peu trop vivement."
+          "label": "Je réagis aussitôt, parfois un peu trop vivement.",
+          "weight": 1
         },
         {
           "profileId": 6,
-          "label": "Je me dis qu’il risque de recommencer."
+          "label": "Je me dis qu’il risque de recommencer.",
+          "weight": 1
+        },
+        {
+          "profileId": 3,
+          "label": "J’en parle aux autres et l’histoire prend de l’ampleur.",
+          "weight": 0.5
         }
       ]
     },
@@ -1033,19 +1377,28 @@
       "options": [
         {
           "profileId": 14,
-          "label": "Je rappelle surtout les circonstances du problème."
+          "label": "Je rappelle surtout les circonstances du problème.",
+          "weight": 1
         },
         {
           "profileId": 19,
-          "label": "Je défends les raisons de mon choix."
+          "label": "Je défends les raisons de mon choix.",
+          "weight": 1
         },
         {
           "profileId": 5,
-          "label": "Je raconte les faits sous l’angle qui m’arrange."
+          "label": "Je raconte les faits sous l’angle qui m’arrange.",
+          "weight": 1
         },
         {
           "profileId": 4,
-          "label": "Je dis les choses crûment, même si ça vexe."
+          "label": "Je dis les choses crûment, même si ça vexe.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Je reconnais mon erreur et j’essaie de la corriger.",
+          "weight": 0
         }
       ]
     },
@@ -1055,19 +1408,28 @@
       "options": [
         {
           "profileId": 18,
-          "label": "Je regarde surtout ce que j’y perds."
+          "label": "Je regarde surtout ce que j’y perds.",
+          "weight": 1
         },
         {
           "profileId": 12,
-          "label": "Je défends notre ancienne façon de faire."
+          "label": "Je défends notre ancienne façon de faire.",
+          "weight": 1
         },
         {
           "profileId": 15,
-          "label": "Je décide vite si son idée est bonne ou mauvaise."
+          "label": "Je décide vite si son idée est bonne ou mauvaise.",
+          "weight": 1
         },
         {
           "profileId": 16,
-          "label": "Je réfléchis à tous les détails de la nouvelle organisation."
+          "label": "Je réfléchis à tous les détails de la nouvelle organisation.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Pourquoi pas, on peut essayer.",
+          "weight": 0
         }
       ]
     },
@@ -1077,19 +1439,28 @@
       "options": [
         {
           "profileId": 8,
-          "label": "Je demande quand on passe à autre chose."
+          "label": "Je demande quand on passe à autre chose.",
+          "weight": 1
         },
         {
           "profileId": 13,
-          "label": "J’annonce qu’il est temps de partir."
+          "label": "J’annonce qu’il est temps de partir.",
+          "weight": 1
         },
         {
           "profileId": 11,
-          "label": "Je lance un sujet sur lequel j’ai beaucoup à raconter."
+          "label": "Je lance un sujet sur lequel j’ai beaucoup à raconter.",
+          "weight": 1
         },
         {
           "profileId": 10,
-          "label": "Je me mets dans mon coin."
+          "label": "Je me mets dans mon coin.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Je rentre quand j’en ai envie.",
+          "weight": 0
         }
       ]
     },
@@ -1099,24 +1470,33 @@
       "options": [
         {
           "profileId": 2,
-          "label": "Je m’investis à fond avant de connaître les détails."
+          "label": "Je m’investis à fond avant de connaître les détails.",
+          "weight": 1
         },
         {
           "profileId": 7,
-          "label": "Mon enthousiasme monte et descend avec celui des autres."
+          "label": "Mon enthousiasme monte et descend avec celui des autres.",
+          "weight": 1
         },
         {
           "profileId": 3,
-          "label": "Je relance les débats sur les points de désaccord."
+          "label": "Je relance les débats sur les points de désaccord.",
+          "weight": 1
         },
         {
           "profileId": 20,
-          "label": "Je cherche à rester en contact avec les autres à chaque étape."
+          "label": "Je cherche à rester en contact avec les autres à chaque étape.",
+          "weight": 1
+        },
+        {
+          "profileId": 0,
+          "label": "Je m’y implique à mon rythme.",
+          "weight": 0
         }
       ]
     }
   ],
-  "questionnaireRevision": 4,
+  "questionnaireRevision": 5,
   "legacyProfiles": [
     {
       "id": 1,
