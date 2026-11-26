@@ -275,7 +275,7 @@
         },
         {
           "profileId": 18,
-          "label": "Partir de l’option qui me convient le mieux."
+          "label": "Partir de l’option qui te convient le mieux."
         }
       ]
     },
@@ -293,7 +293,7 @@
         },
         {
           "profileId": 12,
-          "label": "Continuer à creuser mon idée pour la défendre."
+          "label": "Continuer à creuser ton idée pour la défendre."
         },
         {
           "profileId": 15,
@@ -319,29 +319,29 @@
         },
         {
           "profileId": 1,
-          "label": "Je réponds à chaud si la personne revient."
+          "label": "J’envoie un deuxième message sur un coup d’agacement."
         }
       ]
     },
     {
       "id": 5,
-      "prompt": "Une soirée devient animée. Qu’est-ce qui t’entraîne ?",
+      "prompt": "Une soirée entre amis s’organise. Quel réflexe te ressemble ?",
       "options": [
         {
           "profileId": 2,
-          "label": "Une nouvelle idée me donne envie de tout lancer."
+          "label": "Je m’emballe pour une idée de dernière minute."
         },
         {
           "profileId": 3,
-          "label": "Un désaccord me donne envie de creuser le sujet."
+          "label": "Je relance la discussion si deux avis s’opposent."
         },
         {
           "profileId": 7,
-          "label": "Je prends naturellement le ton du groupe."
+          "label": "Je me laisse guider par l’humeur du groupe."
         },
         {
           "profileId": 14,
-          "label": "Je me retire des tâches que j’avais promis de gérer."
+          "label": "Je compte sur les autres pour gérer ma part."
         }
       ]
     },
@@ -491,11 +491,11 @@
         },
         {
           "profileId": 18,
-          "label": "Proposes surtout les créneaux qui m’arrangent."
+          "label": "Proposes surtout les créneaux qui t’arrangent."
         },
         {
           "profileId": 9,
-          "label": "Dis que ça ne me dérange pas, même si je suis déçu."
+          "label": "Dis que ça ne te dérange pas, même si tu es déçu."
         }
       ]
     },
@@ -575,7 +575,7 @@
         },
         {
           "profileId": 5,
-          "label": "Poses des questions pour l’amener à ma conclusion."
+          "label": "Poses des questions pour l’amener à ta conclusion."
         },
         {
           "profileId": 15,
@@ -611,7 +611,7 @@
     },
     {
       "id": 18,
-      "prompt": "Un groupe termine un projet réussi. Tu…",
+      "prompt": "Vous venez de réussir un projet collectif. Tu…",
       "options": [
         {
           "profileId": 11,
@@ -795,7 +795,7 @@
         },
         {
           "profileId": 11,
-          "label": "Je raconte ce que j’ai fait pour lui en retour."
+          "label": "Je rappelle ce que j’ai déjà fait pour lui."
         },
         {
           "profileId": 5,
@@ -1041,7 +1041,7 @@
         },
         {
           "profileId": 5,
-          "label": "Présentes les faits de façon à rendre ton choix compréhensible."
+          "label": "Présentes les faits sous l’angle qui t’avantage."
         },
         {
           "profileId": 4,
@@ -1095,7 +1095,7 @@
     },
     {
       "id": 40,
-      "prompt": "Un groupe s’enthousiasme pour une nouvelle idée. Tu…",
+      "prompt": "Un groupe prépare un nouveau projet. Tu…",
       "options": [
         {
           "profileId": 2,
@@ -1107,11 +1107,11 @@
         },
         {
           "profileId": 3,
-          "label": "Ajoutes des arguments si un débat démarre."
+          "label": "Relances les points de désaccord pour les approfondir."
         },
         {
           "profileId": 20,
-          "label": "Cherches à rester associé à toutes les étapes."
+          "label": "Cherches à être inclus dans toutes les étapes."
         }
       ]
     }
